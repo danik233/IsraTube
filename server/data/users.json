@@ -1,0 +1,301 @@
+[
+  {
+    "_id": "6868eb9e8b65f3445f3ab92e",
+    "email": "busstatiuon",
+    "password": "$2b$10$iY/9FE2gub.dICu.bs.UBedtDWDm2KBUEB7xDgQ7xUoKEAvpXTT5S",
+    "paid": false,
+    "favArray": [
+      {
+        "Title": "Hello Ghost",
+        "Year": "2010",
+        "Rated": "N/A",
+        "Released": "23 Dec 2010",
+        "Runtime": "111 min",
+        "Genre": "Comedy, Drama, Family",
+        "Director": "Young-Tak Kim",
+        "Writer": "Young-Tak Kim",
+        "Actors": "Cha Tae-hyun, Kang Ye-won, Lee Moon-su",
+        "Plot": "A man's failed suicide attempt enables him to see ghosts, who later keep following him everywhere. It is now up to him to fulfill their wishes to make them go away.",
+        "Language": "Korean",
+        "Country": "South Korea",
+        "Awards": "3 wins & 6 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZjkyNjZmMjAtNmY3YS00NzhjLTg3N2ItZDhmNTk2ZmUxMjMyXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.5/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "7.5",
+        "imdbVotes": "4,952",
+        "imdbID": "tt1848926",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      },
+      {
+        "Title": "Ace Ventura: Pet Detective",
+        "Year": "1994",
+        "Rated": "PG-13",
+        "Released": "04 Feb 1994",
+        "Runtime": "86 min",
+        "Genre": "Comedy",
+        "Director": "Tom Shadyac",
+        "Writer": "Jack Bernstein, Tom Shadyac, Jim Carrey",
+        "Actors": "Jim Carrey, Courteney Cox, Sean Young",
+        "Plot": "A goofy detective specializing in animals goes in search of the missing mascot of the Miami Dolphins.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "5 wins & 6 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOWU1M2Q5MDgtOTkxZS00NjdmLWFlNWEtOGEyOTNlNGYyYTZlXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.9/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "48%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "37/100"
+          }
+        ],
+        "Metascore": "37",
+        "imdbRating": "6.9",
+        "imdbVotes": "340,938",
+        "imdbID": "tt0109040",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$72,217,396",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      },
+      {
+        "Title": "Ace Ventura: When Nature Calls",
+        "Year": "1995",
+        "Rated": "PG-13",
+        "Released": "10 Nov 1995",
+        "Runtime": "90 min",
+        "Genre": "Adventure, Comedy, Crime",
+        "Director": "Steve Oedekerk",
+        "Writer": "Jack Bernstein, Steve Oedekerk",
+        "Actors": "Jim Carrey, Ian McNeice, Simon Callow",
+        "Plot": "Ace Ventura, Pet Detective, returns from a spiritual quest to investigate the disappearance of a rare white bat, the sacred animal of a tribe in Africa.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "7 wins & 6 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjk3ZDUwYTMtYmQyYy00NTg1LWExOTItNTcxODM3NDZiNjMyXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.4/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "23%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "43/100"
+          }
+        ],
+        "Metascore": "43",
+        "imdbRating": "6.4",
+        "imdbVotes": "242,520",
+        "imdbID": "tt0112281",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$108,385,533",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      },
+      {
+        "Title": "Ace in the Hole",
+        "Year": "1951",
+        "Rated": "Approved",
+        "Released": "04 Jul 1951",
+        "Runtime": "111 min",
+        "Genre": "Drama, Film-Noir",
+        "Director": "Billy Wilder",
+        "Writer": "Billy Wilder, Lesser Samuels, Walter Newman",
+        "Actors": "Kirk Douglas, Jan Sterling, Robert Arthur",
+        "Plot": "Frustrated former journalist Chuck Tatum now working for an Albuquerque newspaper exploits a story about trading post owner Leo Minosa trapped in a cave to rekindle Chuck's career, but the story soon escalates into a media circus.",
+        "Language": "English, Spanish, Latin",
+        "Country": "United States",
+        "Awards": "Nominated for 1 Oscar. 4 wins & 3 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMDY5MmVmODktYjg5Yi00ZDg4LThiOGItN2MzOWViZjVjMGUwXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "8.1/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "90%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "72/100"
+          }
+        ],
+        "Metascore": "72",
+        "imdbRating": "8.1",
+        "imdbVotes": "40,295",
+        "imdbID": "tt0043338",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "__v": 2
+  },
+  {
+    "_id": "6868ef298b65f3445f3ab977",
+    "email": "shahrukh khan",
+    "password": "$2b$10$atGNK9wPmHs98fMpoVF.B.UlJZYUVyqLMohY9jHa8P18mWZnXPsQO",
+    "paid": true,
+    "favArray": [
+      {
+        "Title": "Hello, My Name Is Doris",
+        "Year": "2015",
+        "Rated": "R",
+        "Released": "01 Apr 2016",
+        "Runtime": "90 min",
+        "Genre": "Comedy, Drama, Romance",
+        "Director": "Michael Showalter",
+        "Writer": "Laura Terruso, Michael Showalter",
+        "Actors": "Sally Field, Max Greenfield, Tyne Daly",
+        "Plot": "A self-help seminar inspires a sixty-something woman to romantically pursue her younger co-worker.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "3 wins & 11 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNDYwMmEwNmYtZGQwYS00ODhjLTlmMmQtM2M3NTFmODQyOTAyXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.6/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "86%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "63/100"
+          }
+        ],
+        "Metascore": "63",
+        "imdbRating": "6.6",
+        "imdbVotes": "22,780",
+        "imdbID": "tt3766394",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$14,444,999",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      },
+      {
+        "Title": "Hello, Dolly!",
+        "Year": "1969",
+        "Rated": "G",
+        "Released": "16 Dec 1969",
+        "Runtime": "146 min",
+        "Genre": "Adventure, Comedy, Musical",
+        "Director": "Gene Kelly",
+        "Writer": "Michael Stewart, Thornton Wilder, Ernest Lehman",
+        "Actors": "Barbra Streisand, Walter Matthau, Michael Crawford",
+        "Plot": "Matchmaker Dolly Levi travels to Yonkers to find a partner for \"half-a-millionaire\" Horace Vandergelder, convincing his niece, his niece's intended, and his two clerks to travel to New York City along the way.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Won 3 Oscars. 4 wins & 13 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BODk3MmYzOWYtNmQzZC00NTQyLWJjM2EtMDEzZjc3NDYxYWI4XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.0/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "43%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "51/100"
+          }
+        ],
+        "Metascore": "51",
+        "imdbRating": "7.0",
+        "imdbVotes": "17,649",
+        "imdbID": "tt0064418",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$400,881",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "__v": 1
+  },
+  {
+    "_id": "68695353e4b62b17c06a6150",
+    "email": "2",
+    "password": "$2b$10$XaEBKaPLPY.zTJhtwaDFK.YIJ4shxsfYZJObLrB2FW4L3ozVQs2ju",
+    "paid": true,
+    "favArray": [
+      {
+        "Title": "Ace Ventura: Pet Detective",
+        "Year": "1994",
+        "Rated": "PG-13",
+        "Released": "04 Feb 1994",
+        "Runtime": "86 min",
+        "Genre": "Comedy",
+        "Director": "Tom Shadyac",
+        "Writer": "Jack Bernstein, Tom Shadyac, Jim Carrey",
+        "Actors": "Jim Carrey, Courteney Cox, Sean Young",
+        "Plot": "A goofy detective specializing in animals goes in search of the missing mascot of the Miami Dolphins.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "5 wins & 6 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOWU1M2Q5MDgtOTkxZS00NjdmLWFlNWEtOGEyOTNlNGYyYTZlXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.9/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "48%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "37/100"
+          }
+        ],
+        "Metascore": "37",
+        "imdbRating": "6.9",
+        "imdbVotes": "340,938",
+        "imdbID": "tt0109040",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$72,217,396",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "__v": 13
+  }
+]
