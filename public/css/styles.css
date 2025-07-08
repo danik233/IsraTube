@@ -547,6 +547,7 @@ header {
     align-items: center;
     margin-top: 20px;
 }
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~admin.html~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .adminBody {
     font-family: Arial, sans-serif;
@@ -623,3 +624,152 @@ header {
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media (max-width: 768px) {
+    .buttonANDlogo a p {
+        display: none;
+
+
+    }
+
+    .searchSystem {
+        margin-left: 10px;
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    .searchSystem input#searchText {
+        width: 100%;
+        max-width: 100%;
+        height: 36px;
+        font-size: 16px;
+        padding-left: 16px;
+        border-radius: 20px;
+    }
+
+    .searchSystem input#keyboardIcon {
+        display: none;
+    }
+
+    .mainWrap p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        /* Adds "..." if text is too long */
+    }
+
+    /*for songs*/
+    #SongWrap {
+        margin-top: 60px;
+        padding: 10px;
+        margin-left: 10px;
+        gap: 15px;
+        justify-content: center;
+        /* Center songs on smaller screens */
+    }
+
+    .SongContainer {
+        width: 160px;
+        height: auto;
+        padding-top: 15px;
+        gap: 8px;
+    }
+
+    .SongContainer h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .SongContainer h2 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .SongContainer img {
+        width: 120px;
+        height: 120px;
+        margin-top: 0;
+    }
+
+    #SongWrap {
+        margin-top: 20px;
+    }
+
+    #SongWrap {
+        border-radius: 10px;
+    }
+
+    /*For rating*/
+    #topRow {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #rating,
+    #description {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+    }
+
+    /*For Admin*/
+    .adminBody h1 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .adminBody table {
+        width: 100%;
+        font-size: 14px;
+        margin-top: 0.5rem;
+    }
+
+    .adminBody th,
+    .adminBody td {
+        padding: 0.5rem;
+    }
+
+    .adminBody th:nth-child(1),
+    .adminBody td:nth-child(1),
+    .adminBody th:nth-child(2),
+    .adminBody td:nth-child(2),
+    .adminBody th:nth-child(3),
+    .adminBody td:nth-child(3) {
+        width: auto;
+        /* Let them resize naturally */
+    }
+
+    .adminBody .bb {
+        position: static;
+        display: block;
+        width: 100%;
+        margin: 20px auto 0;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .adminBody .bb#abs-btn {
+        top: auto;
+        left: auto;
+    }
+
+
+    #movieTitle {
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    #poster-section {
+        display: block;
+    }
+
+    #poster-and-p {
+        gap: 0px;
+    }
+
+
+
+}
