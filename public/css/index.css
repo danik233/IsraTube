@@ -1,0 +1,244 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    body {
+        position: relative;
+        font-family: 'Lucida Sans', Geneva, Verdana, sans-serif;
+        background-color: black;
+    }
+
+    #bg {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        top: 0;
+        left: 0;
+    }
+
+    .bgSlide {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        opacity: 0;
+        animation: fade 12s infinite;
+    }
+
+    .bgSlide:nth-child(1) {
+        background-image: url("../bg-images/deadpoolBackGround.png");
+        animation-delay: 0s;
+    }
+
+    .bgSlide:nth-child(2) {
+        background-image: url("../bg-images/PathaanBackground.webp");
+        animation-delay: 4s;
+    }
+
+    .bgSlide:nth-child(3) {
+        background-image: url("../bg-images/SrkBackground.jpg");
+        animation-delay: 8s;
+    }
+
+    @keyframes fade {
+        0% {
+            opacity: 0;
+        }
+
+        6.67% {
+            opacity: 1;
+        }
+
+        26.67% {
+            opacity: 1;
+        }
+
+        40.34% {
+            opacity: 0.2;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+    .LoginContainer {
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(50px);
+        -webkit-backdrop-filter: blur(50px);
+        width: 500px;
+        height: 500px;
+        margin: 100px auto;
+        border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 1;
+        position: relative;
+    }
+
+    .LoginContainer h1 {
+        color: #ffffff;
+        font-size: 40px;
+        width: 50%;
+        text-align: center;
+        padding: 30px;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .inputSection {
+        width: 100%;
+        padding: 15px 30px;
+    }
+
+    #emailInput,
+    #passInput {
+        padding-left: 10px;
+        width: 100%;
+        height: 70px;
+        font-size: 20px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    #loginBtn {
+        width: 200px;
+        height: 70px;
+        background-color: #0071CC;
+        border: none;
+        border-radius: 10px;
+        margin: 10px 0px;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 30px;
+    }
+
+    span {
+        text-decoration: underline;
+        color: #008cff;
+        cursor: pointer;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+
+    #blackLineTop,
+    #blackLineBottom {
+        width: 100%;
+        height: 50px;
+        z-index: 5;
+        position: fixed;
+        left: 0;
+    }
+
+    #blackLineTop {
+        top: 0;
+        background: linear-gradient(to bottom, black, transparent);
+    }
+
+    #blackLineBottom {
+        bottom: 0;
+        background: linear-gradient(to top, black, transparent);
+    }
+
+    /*~~~~~~~~~~~~~~~Responsive~~~~~~~~~~~~~~~~~~~~*/
+
+    /* --- Responsive Design for Smartphones --- */
+    @media (max-width: 768px) {
+        .center-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100%;
+            position: relative;
+            z-index: 1;
+            padding: 0 10px;
+        }
+
+        .LoginContainer,
+        .SignupContainer {
+            width: 90%;
+            height: auto;
+            margin: 40px auto;
+            padding: 20px 15px;
+            border-radius: 20px;
+        }
+
+        .LoginContainer h1,
+        .SignupContainer h1 {
+            font-size: 28px;
+            width: 100%;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .inputSection,
+        .inpSection {
+            width: 100%;
+            padding: 10px 0;
+            flex-direction: column;
+        }
+
+        #emailInput,
+        #passInput,
+        #repeatPassInput {
+            height: 50px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        #loginBtn,
+        #signupBtn {
+            width: 100%;
+            height: 60px;
+            font-size: 22px;
+        }
+
+        .payment-buttons {
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .paid-btn,
+        .not-paid-btn {
+            width: 80%;
+            height: 45px;
+            font-size: 18px;
+        }
+
+        .payment-info,
+        .payment-info.small {
+            font-size: 16px;
+            padding: 5px 10px;
+            text-align: center;
+        }
+
+        #blackLineTop,
+        #blackLineBottom {
+            height: 30px;
+        }
+
+        span {
+            font-size: 16px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
