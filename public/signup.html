@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Login page</title>
+
+</head>
+
+<body class="center-wrapper">
+
+    <!-- Top and bottom black gradient overlays -->
+    <section id="blackLineTop"></section>
+    <section id="blackLineBottom"></section>
+
+    <!-- Background images slider container -->
+    <section id="bg">
+        <div class="bgSlide"></div>
+        <div class="bgSlide"></div>
+        <div class="bgSlide"></div>
+    </section>
+
+    <!-- Signup form container -->
+    <section class="SignupContainer">
+        <h1>Sign up</h1>
+
+        <!-- Email input section -->
+        <section class="inpSection">
+            <input id="emailInput" type="text" placeholder="Email" />
+        </section>
+
+        <!-- Password input section -->
+        <section class="inpSection">
+            <input id="passInput" type="password" placeholder="Password" />
+        </section>
+
+        <!-- Confirm password input section -->
+        <section class="inpSection">
+            <input id="repeatPassInput" type="password" placeholder="Confirm password" />
+        </section>
+
+        <!-- Payment option buttons -->
+        <div class="payment-buttons">
+            <button class="paid-btn">Paid</button>
+            <button class="not-paid-btn">Not Paid</button>
+        </div>
+
+        <!-- Add this paragraph right below the payment-buttons div -->
+        <p class="payment-info">Pay 5$ per month</p>
+        <p class="payment-info small">Or use the website for free (30-day limit)</p>
+
+        <!-- Signup button (initially disabled) -->
+        <input id="signupBtn" type="button" value="Sign up" disabled />
+
+        <!-- Link back to login page -->
+        <p>Already have an account? <span id="gotoLogin">Back to login</span></p>
+    </section>
+
+    <script src="js/signup.js"></script>
+
+</body>
+
+</html>
