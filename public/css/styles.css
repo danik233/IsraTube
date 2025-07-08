@@ -437,3 +437,113 @@ header {
     width: 170px;
     height: 170px;
 }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*For rating: */
+
+#topRow {
+    background-color: #f0f0f0;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#poster-section {
+    display: flex;
+    margin-bottom: 100px;
+    height: 400px;
+}
+
+#poster-and-p {
+    background-color: rgb(160, 160, 160);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 30px;
+    border-radius: 30px;
+    overflow-y: auto;
+}
+
+#rating {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#description {
+    font-size: 20px;
+}
+
+#commentsSection {
+    margin-top: 40px;
+    text-align: left;
+    max-width: 600px;
+    margin-inline: auto;
+}
+
+#commentsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+#commentsSection textarea {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#submitComment {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#submitComment:hover {
+    background-color: #388e3c;
+}
+
+#movieTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.bodyRating {
+    margin-top: 70px;
+    /* to prevent header overlap */
+    margin-left: 220px;
+    /* sidebar offset */
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    transition: margin-left 0.3s ease;
+    overflow-y: auto;
+    flex-wrap: wrap;
+}
+
+.mainWrapRating .bodyRating.fullscreen {
+    margin-left: 0;
+    width: 100%;
+}
+
+#moviePos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

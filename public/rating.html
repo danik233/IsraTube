@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IsraTube</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <section class="buttonANDlogo">
+            <input id="burgerBtn" type="button" value="☰" alt="menu"
+                style="width: 45px; height: 45px; font-size: 35px; background-color: transparent; border: none;">
+            <a href="homepage.html">
+                <p>IsraTube</p>
+            </a>
+        </section>
+
+        <section class="searchSystem">
+            <input id="searchText" type="text" placeholder="Search">
+            <input id="keyboardIcon" type="image" src="images/KeyBoard.png" alt="keyBoard" width="30" height="30">
+            <input id="searchIcon" type="image" src="images/Search.png" alt="search" width="20" height="20">
+        </section>
+
+        <section class="loginSystem">
+            <input id="moonDark" type="image" src="images/moonWhiteIcon.png" alt="darkmode" width="45" height="45">
+
+            <section id="profileArea">
+                <input id="profileIcon" type="image" src="images/profileIcon.png" alt="profile">
+                <a href="index.html" id="logoutLink">Logout</a>
+            </section>
+        </section>
+
+
+        </section>
+
+    </header>
+
+
+
+    <aside id="sidebar" class="open">
+        <ul>
+            <li>
+                <a href="homepage.html">
+                    <img src="images/HomeIcon.png" alt="home icon" />
+                    <p>Home</p>
+                </a>
+            </li>
+            <li>
+                <a href="TvOnline.html">
+                    <img src="images/TVOnline 1.png" alt="TV online icon" />
+                    <p>TV Online</p>
+                </a>
+            </li>
+            <li>
+                <a href="Movies.html">
+                    <img src="images/MovieIcon.png" alt="movie icon" />
+                    <p>Movies</p>
+                </a>
+            </li>
+            <li>
+                <a href="Songs.html">
+                    <img src="images/Music-Music-icon 1.png" alt="songs icon" />
+                    <p>Songs</p>
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+
+
+    <main class="mainWrapRating">
+        <section class="bodyRating">
+            <!-- Movie title -->
+            <p id="movieTitle">Loading...</p>
+
+
+
+            <section id="poster-section">
+                <!-- Movie poster -->
+                <img id="moviePoster" src="" alt="Movie Poster" style="display:none; border: 3px solid gray;" />
+
+                <section id="poster-and-p">
+                    <!-- IMDb rating and description -->
+                    <p id="rating">Fetching IMDb rating...</p>
+                    <p id="description">Loading description...</p>
+                </section>
+            </section>
+
+
+
+            <!-- Trailer -->
+            <section id="moviePos">
+                <iframe id="movieTrailer" width="800" height="400" style="display:none;" frameborder="0" allowfullscreen
+                    title="Movie Trailer">
+                </iframe>
+            </section>
+
+            <!-- Comments Section -->
+            <section id="commentsSection">
+                <p>Comments</p>
+                <ul id="commentsList"></ul>
+                <textarea id="commentInput" placeholder="Write a comment..."></textarea>
+                <button id="submitComment">Submit Comment</button>
+            </section>
+        </section>
+    </main>
+
+
+
+    <script src="js/rating.js"></script>
+    <script src="js/home.js"></script>
+
+</body>
+
+</html>
