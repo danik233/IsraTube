@@ -547,3 +547,79 @@ header {
     align-items: center;
     margin-top: 20px;
 }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~admin.html~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.adminBody {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    background-color: #4b2d39;
+    background-image: url('../images/wizard.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.adminBody h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.adminBody table {
+    width: 90%;
+    justify-self: center;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #ffffffdd;
+}
+
+.adminBody th,
+.adminBody td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.adminBody th {
+    background-color: #9a6f6f;
+    color: white;
+}
+
+/* Set column widths */
+.adminBody th:nth-child(1),
+.adminBody td:nth-child(1) {
+    width: 40%;
+}
+
+.adminBody th:nth-child(2),
+.adminBody td:nth-child(2) {
+    width: 20%;
+}
+
+.adminBody th:nth-child(3),
+.adminBody td:nth-child(3) {
+    width: 40%;
+}
+
+.adminBody .bb {
+    background-color: orangered;
+    position: absolute;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.adminBody .bb:hover {
+    background-color: rgb(165, 44, 0);
+    cursor: pointer;
+}
+
+.adminBody .bb#abs-btn {
+    top: 30px;
+    left: 30px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
