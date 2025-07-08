@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="css/styleIMDB.css" />
+</head>
+
+<body id="searchIMDB-body">
+    <header>
+
+        <section class="buttonANDlogo">
+            <a href="homepage.html"
+                style="width: 45px; height: 45px; font-size: 35px; background-color: transparent; border: none;">
+                <p id="israTubeText">◀</p>
+            </a>
+            <a>
+                <p id="israTubeText">Search🍿</p>
+            </a>
+        </section>
+
+        <section class="searchSystem">
+            <div class="controls">
+                <input id="searchInput" placeholder="Type to search…" autocomplete="off">
+                <input id="keyboardIcon" type="image" src="images/KeyBoard.png" alt="keyBoard" width="30" height="30">
+                <input id="searchIcon" type="image" src="images/Search.png" alt="search" width="20" height="20">
+            </div>
+
+            <button id="filterBtn">Filter</button>
+            <div id="filterPanel" class="hidden">
+                <h3>Filter by Genre</h3>
+                <div id="genreCheckboxes"></div>
+            </div>
+            <a id="search-goto-fav" href="favoriteIMDB.html">Favorites</a>
+
+        </section>
+
+
+
+
+        <section class="loginSystem">
+            <input id="moonDark" type="image" src="images/moonWhiteIcon.png" alt="darkmode" width="45" height="45">
+
+            <section id="profileArea">
+                <input id="profileIcon" type="image" src="images/profileIcon.png" alt="profile">
+                <a href="index.html" id="logoutLink">Logout</a>
+            </section>
+        </section>
+
+
+        </section>
+
+    </header>
+
+
+    <main id="searchIMDBmain">
+        <div id="mainContent"></div>
+        <button id="loadMoreBtn" class="hidden">Load More</button>
+    </main>
+
+    <script src="js/searchIMDB.js"></script>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
