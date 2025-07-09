@@ -1,4 +1,9 @@
-// ✅ DOMContentLoaded handler (no changes here)
+// Helper to format date or show "N/A"
+function formatDate(date) {
+    if (!date) return "N/A";
+    return new Date(date).toLocaleDateString();
+}
+
 document.addEventListener("DOMContentLoaded", async () => {
     try {
         const res = await fetch("/api/users");
@@ -36,11 +41,24 @@ document.addEventListener("DOMContentLoaded", async () => {
                 favHtml += "</div>";
             }
 
+            // Format signup date
+            const signedDate = formatDate(user.signupDate);
+
+            // Calculate trial END date if user is not paid
+            let endDate = "N/A";
+            if (user.signupDate && user.paid === false) {
+                const signup = new Date(user.signupDate);
+                const trialEnd = new Date(signup.getTime() + 30 * 24 * 60 * 60 * 1000); // +30 days
+                endDate = formatDate(trialEnd);
+            }
+
+            // Add one more <td> for END date
             row.innerHTML = `
                 <td>${user.email}</td>
                 <td>${user.paid ? "✅" : "❌"}</td>
                 <td>${favHtml}</td>
-                <td>${user.signupDate ? new Date(user.signupDate).toLocaleDateString() : "N/A"}</td>
+                <td>${signedDate}</td>
+                <td>${endDate}</td>
                 <td>
                     <button onclick="deleteUser('${user.email}')">🗑️</button>
                     <button onclick="changeUser('${user.email}')">✏️</button>
@@ -56,7 +74,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 });
 
-// ✅ Delete user (no changes)
+// Delete user (no changes)
 async function deleteUser(email) {
     if (!confirm(`Delete ${email}?`)) return;
 
@@ -73,7 +91,7 @@ async function deleteUser(email) {
     }
 }
 
-// ✅ Update user WITHOUT changing paid status
+// Update user WITHOUT changing paid status (no changes)
 async function changeUser(email) {
     const newEmail = prompt("New email:", email);
     if (!newEmail) return alert("Email is required");

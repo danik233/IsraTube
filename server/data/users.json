@@ -322,18 +322,18 @@
     "__v": 2
   },
   {
-    "_id": "686e3178a2f86dd423e1becb",
-    "email": "12",
-    "password": "$2b$10$7oVk/ycD7840bbSRAS7bCuVhojiRg0XaBpL9TRj4wefS5EtSMI4Q.",
-    "paid": true,
+    "_id": "686e3748d3e326c957900cab",
+    "email": "4",
+    "password": "$2b$10$jF7jFJXjEFi249P1B0LEPO0OdbgHj70HFL5cjnTQS4WEcaRbYq.oW",
+    "paid": false,
     "favArray": [],
-    "signupDate": "2025-07-09T09:08:08.366Z",
+    "signupDate": "2025-07-09T09:32:56.371Z",
     "__v": 0
   },
   {
-    "_id": "686e32901388f1993da02843",
-    "email": "10",
-    "password": "$2b$10$WPV7/4PASS.9Bd7A4E3NROKLKQdpXBntS4A0aduNxSfQDw8JdcPkK",
+    "_id": "686e3789d3e326c957900cb8",
+    "email": "1",
+    "password": "$2b$10$6KBO5p4IprQidUfBnAPEoea01x.sstRonq9c36Odhe5nKj8g/mmum",
     "paid": true,
     "favArray": [
       {
@@ -375,9 +375,49 @@
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
+      },
+      {
+        "Title": "Drag Me to Hell",
+        "Year": "2009",
+        "Rated": "PG-13",
+        "Released": "29 May 2009",
+        "Runtime": "99 min",
+        "Genre": "Horror",
+        "Director": "Sam Raimi",
+        "Writer": "Sam Raimi, Ivan Raimi",
+        "Actors": "Alison Lohman, Justin Long, Ruth Livier",
+        "Plot": "A loan officer who evicts an old woman from her home finds herself the recipient of a supernatural curse. Desperate, she turns to a seer to try and save her soul, while evil forces work to push her to a breaking point.",
+        "Language": "English, Spanish, Hungarian, Czech",
+        "Country": "United States, India",
+        "Awards": "7 wins & 24 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQwNTMyNjc5Ml5BMl5BanBnXkFtZTcwOTI2MTQ0Mg@@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.6/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "92%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "83/100"
+          }
+        ],
+        "Metascore": "83",
+        "imdbRating": "6.6",
+        "imdbVotes": "223,630",
+        "imdbID": "tt1127180",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$42,100,625",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
       }
     ],
-    "signupDate": "2025-07-09T09:12:48.786Z",
+    "signupDate": "2025-07-09T09:34:01.222Z",
     "__v": 2
   }
 ]
