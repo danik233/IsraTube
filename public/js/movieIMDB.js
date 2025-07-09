@@ -55,8 +55,9 @@ function displayMovieDetails(m) {
 
     // Decide trailer source
     let trailerSrc = trailers[normalizedTitle]
-        ? trailers[normalizedTitle] + "?autoplay=1&rel=0"
-        : "https://www.youtube.com/embed/gDPb6YXKVrc?autoplay=1&rel=0";
+        ? trailers[normalizedTitle] + "?rel=0"
+        : "https://www.youtube.com/embed/gDPb6YXKVrc?rel=0";
+
 
     container.innerHTML = `
     <div class="movie-box">
@@ -99,3 +100,6 @@ const params = new URLSearchParams(window.location.search);
 const id = params.get('imdbID');
 if (id) fetchMovieDetails(id);
 else container.innerHTML = '<p>No movie specified.</p>';
+
+
+

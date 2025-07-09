@@ -292,3 +292,6 @@ window.addEventListener('load', () => {
         searchInput.dispatchEvent(new Event('input'));
     }
 });
+
+
+

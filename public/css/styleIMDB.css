@@ -374,6 +374,77 @@ header {
     font-size: 0.9em;
 }
 
+#random-dice-btn {
+    background-color: #f7c948;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+
+#random-dice-btn:hover {
+    animation: jump 0.5s infinite ease-in-out;
+    box-shadow: 0 0 25px 5px rgba(247, 201, 72, 0.8);
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#random-dice-btn p {
+    color: black !important;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
