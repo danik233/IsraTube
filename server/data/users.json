@@ -322,102 +322,153 @@
     "__v": 2
   },
   {
-    "_id": "686e3748d3e326c957900cab",
-    "email": "4",
-    "password": "$2b$10$jF7jFJXjEFi249P1B0LEPO0OdbgHj70HFL5cjnTQS4WEcaRbYq.oW",
+    "_id": "686e71cea4e9ae3c8fd27f00",
+    "email": "1@1.com",
+    "password": "$2b$10$FJwKz25VGpFMxG5WcIMrW.GCSobAt1cx3X.zq6frRi6TeWi6HPLr6",
     "paid": false,
-    "favArray": [],
-    "signupDate": "2025-07-09T09:32:56.371Z",
-    "__v": 0
-  },
-  {
-    "_id": "686e3789d3e326c957900cb8",
-    "email": "1",
-    "password": "$2b$10$6KBO5p4IprQidUfBnAPEoea01x.sstRonq9c36Odhe5nKj8g/mmum",
-    "paid": true,
     "favArray": [
       {
-        "Title": "Hell or High Water",
-        "Year": "2016",
-        "Rated": "R",
-        "Released": "26 Aug 2016",
-        "Runtime": "102 min",
-        "Genre": "Crime, Drama, Thriller",
-        "Director": "David Mackenzie",
-        "Writer": "Taylor Sheridan",
-        "Actors": "Chris Pine, Ben Foster, Jeff Bridges",
-        "Plot": "Toby is a divorced father who's trying to make a better life. His brother is an ex-con with a short temper and a loose trigger finger. Together, they plan a series of heists against the bank that's about to foreclose on their fami...",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "Nominated for 4 Oscars. 47 wins & 174 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMTg4NDA1OTA5NF5BMl5BanBnXkFtZTgwMDQ2MDM5ODE@._V1_SX300.jpg",
+        "Title": "Jab Tak Hai Jaan",
+        "Year": "2012",
+        "Rated": "Not Rated",
+        "Released": "13 Nov 2012",
+        "Runtime": "176 min",
+        "Genre": "Drama, Romance",
+        "Director": "Yash Chopra",
+        "Writer": "Aditya Chopra, Devika Bhagat",
+        "Actors": "Shah Rukh Khan, Katrina Kaif, Anushka Sharma",
+        "Plot": "An uncompromising film on true love from the legendary and unforgettable director Yash Chopra which is fascinatingly distinctive and contemporary.",
+        "Language": "Hindi",
+        "Country": "India",
+        "Awards": "26 wins & 39 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTUyMzM5OTM5NF5BMl5BanBnXkFtZTcwNTIwMjA3OA@@._V1_SX300.jpg",
         "Ratings": [
           {
             "Source": "Internet Movie Database",
-            "Value": "7.6/10"
+            "Value": "6.7/10"
           },
           {
             "Source": "Rotten Tomatoes",
-            "Value": "97%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "88/100"
+            "Value": "90%"
           }
         ],
-        "Metascore": "88",
-        "imdbRating": "7.6",
-        "imdbVotes": "266,464",
-        "imdbID": "tt2582782",
+        "Metascore": "N/A",
+        "imdbRating": "6.7",
+        "imdbVotes": "60,276",
+        "imdbID": "tt2176013",
         "Type": "movie",
         "DVD": "N/A",
-        "BoxOffice": "$27,007,844",
+        "BoxOffice": "$3,047,539",
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
       },
       {
-        "Title": "Drag Me to Hell",
-        "Year": "2009",
-        "Rated": "PG-13",
-        "Released": "29 May 2009",
-        "Runtime": "99 min",
-        "Genre": "Horror",
-        "Director": "Sam Raimi",
-        "Writer": "Sam Raimi, Ivan Raimi",
-        "Actors": "Alison Lohman, Justin Long, Ruth Livier",
-        "Plot": "A loan officer who evicts an old woman from her home finds herself the recipient of a supernatural curse. Desperate, she turns to a seer to try and save her soul, while evil forces work to push her to a breaking point.",
-        "Language": "English, Spanish, Hungarian, Czech",
-        "Country": "United States, India",
-        "Awards": "7 wins & 24 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQwNTMyNjc5Ml5BMl5BanBnXkFtZTcwOTI2MTQ0Mg@@._V1_SX300.jpg",
+        "Title": "Hello, Dolly!",
+        "Year": "1969",
+        "Rated": "G",
+        "Released": "16 Dec 1969",
+        "Runtime": "146 min",
+        "Genre": "Adventure, Comedy, Musical",
+        "Director": "Gene Kelly",
+        "Writer": "Michael Stewart, Thornton Wilder, Ernest Lehman",
+        "Actors": "Barbra Streisand, Walter Matthau, Michael Crawford",
+        "Plot": "Matchmaker Dolly Levi travels to Yonkers to find a partner for \"half-a-millionaire\" Horace Vandergelder, convincing his niece, his niece's intended, and his two clerks to travel to New York City along the way.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Won 3 Oscars. 4 wins & 13 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BODk3MmYzOWYtNmQzZC00NTQyLWJjM2EtMDEzZjc3NDYxYWI4XkEyXkFqcGc@._V1_SX300.jpg",
         "Ratings": [
           {
             "Source": "Internet Movie Database",
-            "Value": "6.6/10"
+            "Value": "7.0/10"
           },
           {
             "Source": "Rotten Tomatoes",
-            "Value": "92%"
+            "Value": "43%"
           },
           {
             "Source": "Metacritic",
-            "Value": "83/100"
+            "Value": "51/100"
           }
         ],
-        "Metascore": "83",
-        "imdbRating": "6.6",
-        "imdbVotes": "223,630",
-        "imdbID": "tt1127180",
+        "Metascore": "51",
+        "imdbRating": "7.0",
+        "imdbVotes": "17,649",
+        "imdbID": "tt0064418",
         "Type": "movie",
         "DVD": "N/A",
-        "BoxOffice": "$42,100,625",
+        "BoxOffice": "$400,881",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      },
+      {
+        "Title": "Hel",
+        "Year": "2016",
+        "Rated": "N/A",
+        "Released": "05 Aug 2016",
+        "Runtime": "93 min",
+        "Genre": "Mystery, Thriller",
+        "Director": "Katarzyna Priwieziencew, Pawel Tarasiewicz",
+        "Writer": "Katarzyna Priwieziencew, Pawel Tarasiewicz",
+        "Actors": "Philip Lenkowsky, Marcin Kowalczyk, Malgorzata Krukowska",
+        "Plot": "Jack, an unappreciated American writer in his sixties, comes to the off-season peninsula of Hel in the north of Poland and isolates himself to write a script. He meets Kail, a local who earns money by making lie-detector tests. Ja...",
+        "Language": "Polish, English",
+        "Country": "Poland",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BM2QxMzU2ZGQtOTMyYy00OGM4LTk2ZTAtMGJmMTI5ZmQyNjE0XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "3.9/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "3.9",
+        "imdbVotes": "178",
+        "imdbID": "tt3953260",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      },
+      {
+        "Title": "Hel",
+        "Year": "2009",
+        "Rated": "N/A",
+        "Released": "23 Apr 2010",
+        "Runtime": "84 min",
+        "Genre": "Drama",
+        "Director": "Kinga Debska",
+        "Writer": "Kinga Debska",
+        "Actors": "Katarzyna Bargielowska, Magdalena Bieganska, Przemyslaw Bluszcz",
+        "Plot": "Divorced psychiatrist Piotr has been through difficult times. An accident makes him reconnect with his son Kamil, whom he has not seen for years. Problems at work and relationships with loved ones cause the doctor's life to fall a...",
+        "Language": "Polish, Czech",
+        "Country": "Poland, Czech Republic",
+        "Awards": "1 nomination",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BODY0Y2NkODYtOTM4OC00ZDYxLWE2MGEtZDI0MzJjYjQ2MTQ2XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "5.8/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "5.8",
+        "imdbVotes": "153",
+        "imdbID": "tt1499230",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
       }
     ],
-    "signupDate": "2025-07-09T09:34:01.222Z",
+    "signupDate": "2025-07-09T13:42:38.447Z",
     "__v": 2
   }
 ]

@@ -21,7 +21,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "..", "public")));
 
-// ✅ MongoDB Connection
+// ✅ Connect to MongoDB
 mongoose.connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -29,7 +29,7 @@ mongoose.connect(process.env.MONGO_URI, {
     .then(() => console.log("✅ Connected to MongoDB"))
     .catch(err => console.error("❌ MongoDB connection error:", err));
 
-// ✅ Sync users.json file
+// ✅ Sync users.json from MongoDB
 async function syncUsersJson() {
     try {
         const users = await User.find({}).lean();
@@ -40,20 +40,18 @@ async function syncUsersJson() {
     }
 }
 
-// Frontend routes
+// ✅ Serve main pages
 app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "..", "public", "index.html"));
 });
-
 app.get("/admin.html", (req, res) => {
     res.sendFile(path.join(__dirname, "..", "public", "admin.html"));
 });
-
 app.get("/homepage.html", (req, res) => {
     res.sendFile(path.join(__dirname, "..", "public", "homepage.html"));
 });
 
-// ✅ Login
+// ✅ Login route
 app.post("/login", async (req, res) => {
     try {
         let { email, password } = req.body;
@@ -62,6 +60,7 @@ app.post("/login", async (req, res) => {
         if (!email || !password)
             return res.status(400).json({ message: "Email and password required" });
 
+        // Admin login shortcut
         if (email === "admin@admin" && password === "admin")
             return res.json({ role: "admin", message: "Admin login successful", redirect: "/admin.html" });
 
@@ -79,7 +78,7 @@ app.post("/login", async (req, res) => {
     }
 });
 
-// ✅ Signup
+// ✅ Signup route
 app.post("/signup", async (req, res) => {
     try {
         let { email, password, repeatPassword, paid, favArray = [] } = req.body;
@@ -112,7 +111,7 @@ app.post("/signup", async (req, res) => {
     }
 });
 
-// ✅ Admin – Get all users
+// ✅ Get all users (for admin panel)
 app.get("/api/users", async (req, res) => {
     try {
         const users = await User.find({}).lean();
@@ -124,7 +123,7 @@ app.get("/api/users", async (req, res) => {
     }
 });
 
-// ✅ Update user
+// ✅ Update user (for password reset, email change, favorites update)
 app.put("/api/users/:email", async (req, res) => {
     try {
         const userEmail = decodeURIComponent(req.params.email).toLowerCase();
@@ -133,18 +132,22 @@ app.put("/api/users/:email", async (req, res) => {
         const user = await User.findOne({ email: userEmail });
         if (!user) return res.status(404).json({ error: "User not found" });
 
+        // Change email
         if (newEmail && newEmail !== user.email) {
             const exists = await User.findOne({ email: newEmail });
             if (exists) return res.status(409).json({ error: "Email already in use" });
             user.email = newEmail.toLowerCase();
         }
 
+        // Change password
         if (newPassword) {
             user.password = await bcrypt.hash(newPassword, SALT_ROUNDS);
         }
 
+        // Change paid status
         if (typeof newPaid === "boolean") user.paid = newPaid;
 
+        // Update favorites
         if (Array.isArray(newFavArray)) {
             if (newFavArray.length > 50)
                 return res.status(400).json({ error: "Too many favorite movies" });
@@ -177,7 +180,7 @@ app.delete("/api/users/:email", async (req, res) => {
     }
 });
 
-// ✅ Start server
+// ✅ Start the server
 app.listen(PORT, () => {
     console.log(`🚀 Server running at http://localhost:${PORT}`);
 });

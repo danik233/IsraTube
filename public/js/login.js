@@ -84,3 +84,30 @@ async function syncLocalFavoritesToMongo(email) {
         console.error("❌ Error syncing favorites:", err);
     }
 }
+
+// ✅ Forgot Password Feature
+document.getElementById("forgotPasswordBtn").addEventListener("click", async () => {
+    const email = prompt("Enter your registered email:");
+    if (!email) return alert("Email is required.");
+
+    const newPassword = prompt("Enter your new password:");
+    if (!newPassword) return alert("New password is required.");
+
+    try {
+        const res = await fetch(`/api/users/${encodeURIComponent(email.trim().toLowerCase())}`, {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ newPassword })
+        });
+
+        const data = await res.json();
+        if (res.ok) {
+            alert("✅ Password changed successfully. You can now login with your new password.");
+        } else {
+            alert("❌ " + (data.message || "Failed to change password."));
+        }
+    } catch (err) {
+        console.error("❌ Forgot password error:", err);
+        alert("Server error. Please try again later.");
+    }
+});

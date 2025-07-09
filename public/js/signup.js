@@ -32,6 +32,12 @@ notPaidBtn.addEventListener("click", () => {
     updateSignupBtnState();
 });
 
+// Email validator using regex
+function isValidEmail(email) {
+    const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return pattern.test(email);
+}
+
 // Async function to handle signup button click
 async function handleSignup() {
     const email = document.getElementById("emailInput").value.trim();
@@ -44,6 +50,12 @@ async function handleSignup() {
         return;
     }
 
+    // ✅ Email format validation
+    if (!isValidEmail(email)) {
+        alert("Please enter a valid email address.");
+        return;
+    }
+
     // Validate paid status selected
     if (paidStatus === null) {
         alert("Please select Paid or Not Paid.");
@@ -51,20 +63,25 @@ async function handleSignup() {
     }
 
     // Send signup data to server
-    const res = await fetch("/signup", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password, repeatPassword, paid: paidStatus, favArray: [] }),
-    });
+    try {
+        const res = await fetch("/signup", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ email, password, repeatPassword, paid: paidStatus, favArray: [] }),
+        });
 
-    const data = await res.json();
+        const data = await res.json();
 
-    // Show success or failure message based on response
-    if (res.ok) {
-        alert("Signup successful!");
-        window.location.href = "index.html"; // Redirect to login page after signup
-    } else {
-        alert(data.message || "Signup failed.");
+        // Show success or failure message based on response
+        if (res.ok) {
+            alert("Signup successful!");
+            window.location.href = "index.html"; // Redirect to login page
+        } else {
+            alert(data.message || "Signup failed.");
+        }
+    } catch (err) {
+        console.error("❌ Signup error:", err);
+        alert("Server error. Please try again later.");
     }
 }
 
