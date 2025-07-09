@@ -1,17 +1,19 @@
+// ✅ DOMContentLoaded handler (no changes here)
 document.addEventListener("DOMContentLoaded", async () => {
     try {
         const res = await fetch("/api/users");
         if (!res.ok) throw new Error("Failed to fetch users");
+
         const users = await res.json();
         const table = document.querySelector("table");
 
-        // Clear previous rows (except header)
+        // Clear all previous rows except header
         document.querySelectorAll("tr:not(:first-child)").forEach(r => r.remove());
 
         users.forEach(user => {
             const row = document.createElement("tr");
 
-            // Render favorite movies as poster thumbnails
+            // Generate favorite movies thumbnails
             let favHtml = "None";
             if (Array.isArray(user.favArray) && user.favArray.length > 0) {
                 favHtml = "<div style='display: flex; flex-wrap: wrap; gap: 8px;'>";
@@ -38,18 +40,23 @@ document.addEventListener("DOMContentLoaded", async () => {
                 <td>${user.email}</td>
                 <td>${user.paid ? "✅" : "❌"}</td>
                 <td>${favHtml}</td>
+                <td>${user.signupDate ? new Date(user.signupDate).toLocaleDateString() : "N/A"}</td>
                 <td>
                     <button onclick="deleteUser('${user.email}')">🗑️</button>
                     <button onclick="changeUser('${user.email}')">✏️</button>
                 </td>
             `;
+
             table.appendChild(row);
         });
+
     } catch (err) {
-        console.error("Failed to load users:", err);
+        console.error("❌ Failed to load users:", err);
+        alert("Failed to load users.");
     }
 });
 
+// ✅ Delete user (no changes)
 async function deleteUser(email) {
     if (!confirm(`Delete ${email}?`)) return;
 
@@ -60,29 +67,40 @@ async function deleteUser(email) {
         const data = await res.json();
         alert(data.message);
         location.reload();
-    } catch {
-        alert("Failed to delete user");
+    } catch (err) {
+        console.error("❌ Delete error:", err);
+        alert("Failed to delete user.");
     }
 }
 
+// ✅ Update user WITHOUT changing paid status
 async function changeUser(email) {
     const newEmail = prompt("New email:", email);
     if (!newEmail) return alert("Email is required");
 
     const newPassword = prompt("New password:");
-    const newPaid = confirm("Paid? OK = true, Cancel = false");
+
+    const updatePayload = { newEmail };
+    if (newPassword) updatePayload.newPassword = newPassword;
 
     try {
         const res = await fetch(`/api/users/${encodeURIComponent(email)}`, {
             method: "PUT",
             headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ newEmail, newPassword, newPaid })
+            body: JSON.stringify(updatePayload)
         });
+
         const data = await res.json();
-        if (!res.ok) return alert("Failed to update: " + (data.error || data.message));
+
+        if (!res.ok) {
+            alert("Failed to update: " + (data.error || data.message));
+            return;
+        }
+
         alert(data.message);
         location.reload();
-    } catch {
-        alert("Failed to update user");
+    } catch (err) {
+        console.error("❌ Update error:", err);
+        alert("Failed to update user.");
     }
 }
