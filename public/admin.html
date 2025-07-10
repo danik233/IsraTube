@@ -6,10 +6,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/loading.css">
     <title>Admin Panel</title>
 </head>
 
 <body class="adminBody">
+
+    <!-- Loading Screen -->
+    <section id="loading-screen">
+        <section class="loader"></section>
+        <p>Loading, please wait...</p>
+    </section>
+
+
     <h1>👑 Admin User List</h1>
     <a id="abs-btn" class="bb" href="index.html">Back to login</a>
 
@@ -18,13 +27,15 @@
             <th>Email</th>
             <th>Paid</th>
             <th>Favorites</th>
-            <th>Signed</th> 
-            <th>END</th> 
+            <th>Signed</th>
+            <th>END</th>
             <th>Actions</th>
         </tr>
     </table>
 
     <script src="js/get-users.js"></script>
+    <script src="js/loading.js"></script>
+
 </body>
 
 </html>
