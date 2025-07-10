@@ -2,271 +2,60 @@
   {
     "_id": "686ec8f3495c358a66845921",
     "email": "alan@gmail.il",
-    "password": "$2b$10$cMU1aiTGKifiqCOdpJwdoOLuOHeVRiCQhaBNz0uyeFa0bwTUwvVmy",
+    "password": "$2b$10$0UrIxG6534a0TdpyJNaZZuXr/1l7UZxC/hC4zrlMSVTBvINzw2Eva",
     "paid": true,
     "favArray": [
       {
-        "Title": "Jab Tak Hai Jaan",
-        "Year": "2012",
-        "Rated": "Not Rated",
-        "Released": "13 Nov 2012",
-        "Runtime": "176 min",
-        "Genre": "Drama, Romance",
-        "Director": "Yash Chopra",
-        "Writer": "Aditya Chopra, Devika Bhagat",
-        "Actors": "Shah Rukh Khan, Katrina Kaif, Anushka Sharma",
-        "Plot": "An uncompromising film on true love from the legendary and unforgettable director Yash Chopra which is fascinatingly distinctive and contemporary.",
-        "Language": "Hindi",
-        "Country": "India",
-        "Awards": "26 wins & 39 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMTUyMzM5OTM5NF5BMl5BanBnXkFtZTcwNTIwMjA3OA@@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "6.7/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "90%"
-          }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "6.7",
-        "imdbVotes": "60,276",
-        "imdbID": "tt2176013",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "$3,047,539",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      },
-      {
-        "Title": "Hello, Dolly!",
-        "Year": "1969",
-        "Rated": "G",
-        "Released": "16 Dec 1969",
-        "Runtime": "146 min",
-        "Genre": "Adventure, Comedy, Musical",
-        "Director": "Gene Kelly",
-        "Writer": "Michael Stewart, Thornton Wilder, Ernest Lehman",
-        "Actors": "Barbra Streisand, Walter Matthau, Michael Crawford",
-        "Plot": "Matchmaker Dolly Levi travels to Yonkers to find a partner for \"half-a-millionaire\" Horace Vandergelder, convincing his niece, his niece's intended, and his two clerks to travel to New York City along the way.",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "Won 3 Oscars. 4 wins & 13 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BODk3MmYzOWYtNmQzZC00NTQyLWJjM2EtMDEzZjc3NDYxYWI4XkEyXkFqcGc@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "7.0/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "43%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "51/100"
-          }
-        ],
-        "Metascore": "51",
-        "imdbRating": "7.0",
-        "imdbVotes": "17,649",
-        "imdbID": "tt0064418",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "$400,881",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      },
-      {
-        "Title": "Hel",
-        "Year": "2016",
-        "Rated": "N/A",
-        "Released": "05 Aug 2016",
-        "Runtime": "93 min",
-        "Genre": "Mystery, Thriller",
-        "Director": "Katarzyna Priwieziencew, Pawel Tarasiewicz",
-        "Writer": "Katarzyna Priwieziencew, Pawel Tarasiewicz",
-        "Actors": "Philip Lenkowsky, Marcin Kowalczyk, Malgorzata Krukowska",
-        "Plot": "Jack, an unappreciated American writer in his sixties, comes to the off-season peninsula of Hel in the north of Poland and isolates himself to write a script. He meets Kail, a local who earns money by making lie-detector tests. Ja...",
-        "Language": "Polish, English",
-        "Country": "Poland",
-        "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BM2QxMzU2ZGQtOTMyYy00OGM4LTk2ZTAtMGJmMTI5ZmQyNjE0XkEyXkFqcGc@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "3.9/10"
-          }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "3.9",
-        "imdbVotes": "178",
-        "imdbID": "tt3953260",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      },
-      {
-        "Title": "Hel",
-        "Year": "2009",
-        "Rated": "N/A",
-        "Released": "23 Apr 2010",
-        "Runtime": "84 min",
-        "Genre": "Drama",
-        "Director": "Kinga Debska",
-        "Writer": "Kinga Debska",
-        "Actors": "Katarzyna Bargielowska, Magdalena Bieganska, Przemyslaw Bluszcz",
-        "Plot": "Divorced psychiatrist Piotr has been through difficult times. An accident makes him reconnect with his son Kamil, whom he has not seen for years. Problems at work and relationships with loved ones cause the doctor's life to fall a...",
-        "Language": "Polish, Czech",
-        "Country": "Poland, Czech Republic",
-        "Awards": "1 nomination",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BODY0Y2NkODYtOTM4OC00ZDYxLWE2MGEtZDI0MzJjYjQ2MTQ2XkEyXkFqcGc@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "5.8/10"
-          }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "5.8",
-        "imdbVotes": "153",
-        "imdbID": "tt1499230",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      },
-      {
-        "Title": "Hell or High Water",
-        "Year": "2016",
-        "Rated": "R",
-        "Released": "26 Aug 2016",
-        "Runtime": "102 min",
-        "Genre": "Crime, Drama, Thriller",
-        "Director": "David Mackenzie",
-        "Writer": "Taylor Sheridan",
-        "Actors": "Chris Pine, Ben Foster, Jeff Bridges",
-        "Plot": "Toby is a divorced father who's trying to make a better life. His brother is an ex-con with a short temper and a loose trigger finger. Together, they plan a series of heists against the bank that's about to foreclose on their fami...",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "Nominated for 4 Oscars. 47 wins & 174 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMTg4NDA1OTA5NF5BMl5BanBnXkFtZTgwMDQ2MDM5ODE@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "7.6/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "97%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "88/100"
-          }
-        ],
-        "Metascore": "88",
-        "imdbRating": "7.6",
-        "imdbVotes": "266,464",
-        "imdbID": "tt2582782",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "$27,007,844",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      },
-      {
-        "Title": "Drag Me to Hell",
-        "Year": "2009",
-        "Rated": "PG-13",
-        "Released": "29 May 2009",
-        "Runtime": "99 min",
-        "Genre": "Horror",
-        "Director": "Sam Raimi",
-        "Writer": "Sam Raimi, Ivan Raimi",
-        "Actors": "Alison Lohman, Justin Long, Ruth Livier",
-        "Plot": "A loan officer who evicts an old woman from her home finds herself the recipient of a supernatural curse. Desperate, she turns to a seer to try and save her soul, while evil forces work to push her to a breaking point.",
-        "Language": "English, Spanish, Hungarian, Czech",
-        "Country": "United States, India",
-        "Awards": "7 wins & 24 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQwNTMyNjc5Ml5BMl5BanBnXkFtZTcwOTI2MTQ0Mg@@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "6.6/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "92%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "83/100"
-          }
-        ],
-        "Metascore": "83",
-        "imdbRating": "6.6",
-        "imdbVotes": "223,630",
-        "imdbID": "tt1127180",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "$42,100,625",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      },
-      {
-        "Title": "Ace Ventura: Pet Detective",
+        "Title": "Getting Even with Dad",
         "Year": "1994",
-        "Rated": "PG-13",
-        "Released": "04 Feb 1994",
-        "Runtime": "86 min",
-        "Genre": "Comedy",
-        "Director": "Tom Shadyac",
-        "Writer": "Jack Bernstein, Tom Shadyac, Jim Carrey",
-        "Actors": "Jim Carrey, Courteney Cox, Sean Young",
-        "Plot": "A goofy detective specializing in animals goes in search of the missing mascot of the Miami Dolphins.",
+        "Rated": "PG",
+        "Released": "17 Jun 1994",
+        "Runtime": "109 min",
+        "Genre": "Comedy, Crime, Family",
+        "Director": "Howard Deutch",
+        "Writer": "Tom S. Parker, Jim Jennewein",
+        "Actors": "Macaulay Culkin, Ted Danson, Glenne Headly",
+        "Plot": "A thief's son cons his father into spending more time with him.",
         "Language": "English",
         "Country": "United States",
-        "Awards": "5 wins & 6 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BOWU1M2Q5MDgtOTkxZS00NjdmLWFlNWEtOGEyOTNlNGYyYTZlXkEyXkFqcGc@._V1_SX300.jpg",
+        "Awards": "2 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYTA0ZWY4YzctMmQ2Ni00YzZlLThhYWUtMjE5YmFkZTVmMDI1XkEyXkFqcGc@._V1_SX300.jpg",
         "Ratings": [
           {
             "Source": "Internet Movie Database",
-            "Value": "6.9/10"
+            "Value": "4.9/10"
           },
           {
             "Source": "Rotten Tomatoes",
-            "Value": "48%"
+            "Value": "3%"
           },
           {
             "Source": "Metacritic",
-            "Value": "37/100"
+            "Value": "31/100"
           }
         ],
-        "Metascore": "37",
-        "imdbRating": "6.9",
-        "imdbVotes": "340,938",
-        "imdbID": "tt0109040",
+        "Metascore": "31",
+        "imdbRating": "4.9",
+        "imdbVotes": "8,930",
+        "imdbID": "tt0109891",
         "Type": "movie",
         "DVD": "N/A",
-        "BoxOffice": "$72,217,396",
+        "BoxOffice": "$18,869,594",
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
       }
     ],
     "signupDate": "2025-07-09T19:54:27.963Z",
-    "__v": 1
+    "__v": 5
+  },
+  {
+    "_id": "686ece3f0ab70160c504bef4",
+    "email": "danik@gmail.il",
+    "password": "$2b$10$95aadVU1GzFzR/ZWpAYbmOVAMjV.VaJR7UUbEp8N9G7UbgYf.VrGG",
+    "paid": false,
+    "favArray": [],
+    "signupDate": "2025-07-09T20:17:03.368Z",
+    "__v": 3
   }
 ]
