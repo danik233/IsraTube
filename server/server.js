@@ -5,6 +5,7 @@ const path = require("path");
 const cors = require("cors");
 const fs = require("fs");
 const bcrypt = require("bcrypt");
+const nodemailer = require("nodemailer");
 const User = require("./modules/user");
 
 const app = express();
@@ -28,6 +29,38 @@ mongoose.connect(process.env.MONGO_URI, {
 })
     .then(() => console.log("✅ Connected to MongoDB"))
     .catch(err => console.error("❌ MongoDB connection error:", err));
+
+// ✅ Setup Nodemailer transporter
+const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+        user: process.env.GMAIL_USER,
+        pass: process.env.GMAIL_PASS,
+    },
+});
+
+// ✅ Function to send signup confirmation email
+async function sendSignupEmail(toEmail) {
+    const mailOptions = {
+        from: `"IsraTube" <${process.env.GMAIL_USER}>`,
+        to: toEmail,
+        subject: "Thank you for Signing Up to IsraTube!",
+        html: `
+            <h2>Welcome to IsraTube 🎉</h2>
+            <p>Thank you for signing up to our IsraTube platform.</p>
+            <p>Enjoy exploring movies, music, and more!</p>
+            <hr />
+            <p style="font-size: 12px; color: gray;">If this wasn't you, please ignore this email.</p>
+        `,
+    };
+
+    try {
+        await transporter.sendMail(mailOptions);
+        console.log(`📧 Confirmation email sent to ${toEmail}`);
+    } catch (err) {
+        console.error("❌ Failed to send signup email:", err);
+    }
+}
 
 // ✅ Sync users.json from MongoDB
 async function syncUsersJson() {
@@ -101,6 +134,7 @@ app.post("/signup", async (req, res) => {
         const newUser = new User({ email, password: hashedPassword, paid, favArray });
         await newUser.save();
         await syncUsersJson();
+        await sendSignupEmail(email); // 📧 Send email
 
         res.status(201).json({
             message: paid ? "Signup successful." : "Signup successful. Free trial 30 days."
@@ -123,7 +157,7 @@ app.get("/api/users", async (req, res) => {
     }
 });
 
-// ✅ Update user (for password reset, email change, favorites update)
+// ✅ Update user
 app.put("/api/users/:email", async (req, res) => {
     try {
         const userEmail = decodeURIComponent(req.params.email).toLowerCase();
