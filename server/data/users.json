@@ -1,90 +1,259 @@
 [
   {
     "_id": "686ec8f3495c358a66845921",
-    "email": "alan@gmail.il",
-    "password": "$2b$10$FZ8fb1JUQx9OnBGK05VwV.IKi900od757Hs.XoGWGJmr44Ky6fomO",
+    "email": "1@2",
+    "password": "$2b$10$ieEGsCFQrto/MPg8/2Ae7.EHhanCQZamfkNq1sPKqd8y.BqxKWxHq",
     "paid": true,
     "favArray": [
       {
-        "Title": "Ace Ventura: Pet Detective",
-        "Year": "1994",
-        "Rated": "PG-13",
-        "Released": "04 Feb 1994",
-        "Runtime": "86 min",
-        "Genre": "Comedy",
-        "Director": "Tom Shadyac",
-        "Writer": "Jack Bernstein, Tom Shadyac, Jim Carrey",
-        "Actors": "Jim Carrey, Courteney Cox, Sean Young",
-        "Plot": "A goofy detective specializing in animals goes in search of the missing mascot of the Miami Dolphins.",
-        "Language": "English",
+        "Title": "Rocky",
+        "Year": "1976",
+        "Rated": "PG",
+        "Released": "03 Dec 1976",
+        "Runtime": "120 min",
+        "Genre": "Drama, Sport",
+        "Director": "John G. Avildsen",
+        "Writer": "Sylvester Stallone",
+        "Actors": "Sylvester Stallone, Talia Shire, Burt Young",
+        "Plot": "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
+        "Language": "English, Spanish, Italian",
         "Country": "United States",
-        "Awards": "5 wins & 6 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BOWU1M2Q5MDgtOTkxZS00NjdmLWFlNWEtOGEyOTNlNGYyYTZlXkEyXkFqcGc@._V1_SX300.jpg",
+        "Awards": "Won 3 Oscars. 22 wins & 23 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZDEyY2M2MGMtYjg5OC00ZWFjLWFkZDQtNmQzZTdiYmYzZTBkXkEyXkFqcGc@._V1_SX300.jpg",
         "Ratings": [
           {
             "Source": "Internet Movie Database",
-            "Value": "6.9/10"
+            "Value": "8.1/10"
           },
           {
             "Source": "Rotten Tomatoes",
-            "Value": "48%"
+            "Value": "93%"
           },
           {
             "Source": "Metacritic",
-            "Value": "37/100"
+            "Value": "70/100"
           }
         ],
-        "Metascore": "37",
-        "imdbRating": "6.9",
-        "imdbVotes": "340,938",
-        "imdbID": "tt0109040",
+        "Metascore": "70",
+        "imdbRating": "8.1",
+        "imdbVotes": "662,404",
+        "imdbID": "tt0075148",
         "Type": "movie",
         "DVD": "N/A",
-        "BoxOffice": "$72,217,396",
+        "BoxOffice": "$117,235,147",
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
       },
       {
-        "Title": "Ace Ventura: When Nature Calls",
-        "Year": "1995",
-        "Rated": "PG-13",
-        "Released": "10 Nov 1995",
-        "Runtime": "90 min",
-        "Genre": "Adventure, Comedy, Crime",
-        "Director": "Steve Oedekerk",
-        "Writer": "Jack Bernstein, Steve Oedekerk",
-        "Actors": "Jim Carrey, Ian McNeice, Simon Callow",
-        "Plot": "Ace Ventura, Pet Detective, returns from a spiritual quest to investigate the disappearance of a rare white bat, the sacred animal of a tribe in Africa.",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "7 wins & 6 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMjk3ZDUwYTMtYmQyYy00NTg1LWExOTItNTcxODM3NDZiNjMyXkEyXkFqcGc@._V1_SX300.jpg",
+        "Title": "Kal Ho Naa Ho",
+        "Year": "2003",
+        "Rated": "Not Rated",
+        "Released": "28 Nov 2003",
+        "Runtime": "186 min",
+        "Genre": "Comedy, Drama, Musical",
+        "Director": "Nikkhil Advani",
+        "Writer": "Niranjan Iyengar, Karan Johar",
+        "Actors": "Preity G Zinta, Shah Rukh Khan, Saif Ali Khan",
+        "Plot": "Naina, an introverted, perpetually depressed girl's life changes when she meets Aman. But Aman has a secret of his own which changes their lives forever. Embroiled in all this is Rohit, Naina's best friend who conceals his love fo...",
+        "Language": "Hindi, English",
+        "Country": "India, Canada",
+        "Awards": "45 wins & 47 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMDNjZmRmMjEtMDA5NS00ZjIxLWJlYWQtNTIyM2FiZjg4NzM4XkEyXkFqcGc@._V1_SX300.jpg",
         "Ratings": [
           {
             "Source": "Internet Movie Database",
-            "Value": "6.4/10"
+            "Value": "7.9/10"
           },
           {
             "Source": "Rotten Tomatoes",
-            "Value": "23%"
+            "Value": "73%"
           },
           {
             "Source": "Metacritic",
-            "Value": "43/100"
+            "Value": "54/100"
           }
         ],
-        "Metascore": "43",
-        "imdbRating": "6.4",
-        "imdbVotes": "242,520",
-        "imdbID": "tt0112281",
+        "Metascore": "54",
+        "imdbRating": "7.9",
+        "imdbVotes": "77,007",
+        "imdbID": "tt0347304",
         "Type": "movie",
         "DVD": "N/A",
-        "BoxOffice": "$108,385,533",
+        "BoxOffice": "$1,991,922",
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
       },
+      {
+        "Title": "Love Aaj Kal",
+        "Year": "2009",
+        "Rated": "Not Rated",
+        "Released": "31 Jul 2009",
+        "Runtime": "128 min",
+        "Genre": "Comedy, Drama, Romance",
+        "Director": "Imtiaz Ali",
+        "Writer": "Imtiaz Ali",
+        "Actors": "Saif Ali Khan, Deepika Padukone, Rishi Kapoor",
+        "Plot": "An old-fashioned romantic tells his personal love story to a modern man who has just broken up with his girlfriend. Has love really ever changed?",
+        "Language": "Hindi",
+        "Country": "India",
+        "Awards": "18 wins & 43 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZGI2MzE5YzMtNGQ4Mi00NmI0LTlhOWMtMGE1ZTVlOGNmOTlmXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.8/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "6.8",
+        "imdbVotes": "17,340",
+        "imdbID": "tt1275863",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$2,430,083",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "signupDate": "2025-07-09T19:54:27.963Z",
+    "__v": 12
+  },
+  {
+    "_id": "6870ac5850263b570e50e3c4",
+    "email": "zirkiev555@gmail.com",
+    "password": "$2b$10$Wpf.kHUOu7jLSM7NCroUQO/ZCGhhZ4OrBhfbdobWdDYDnZqj0kiuW",
+    "paid": false,
+    "favArray": [],
+    "signupDate": "2025-07-11T06:16:56.572Z",
+    "__v": 0
+  },
+  {
+    "_id": "6870d61618e347e09a87adff",
+    "email": "krazzee555@gmail.com",
+    "password": "$2b$10$nLPD.YO4OfTTwRu2SpsefO8Zt2ijp3MULUaoDmxoh2VQkB0.Z3ug6",
+    "paid": false,
+    "favArray": [],
+    "signupDate": "2025-07-11T09:15:02.720Z",
+    "__v": 0
+  },
+  {
+    "_id": "6870d81d18e347e09a87ae03",
+    "email": "vladiszirki@gmail.com",
+    "password": "$2b$10$YXpbnULyP7xmced3v.RyuOkdukfGxsciVnEjC5sHwVasqH2R8KmsC",
+    "paid": false,
+    "favArray": [],
+    "signupDate": "2025-07-11T09:23:41.626Z",
+    "__v": 0
+  },
+  {
+    "_id": "687171927b0476cad7a6980e",
+    "email": "millersoly@gmail.com",
+    "password": "$2b$10$IJRzjcSjwmye5Po8goEEgOoqPaIkFpNh89n0k.KnluUhaHpeRDLcO",
+    "paid": false,
+    "favArray": [],
+    "signupDate": "2025-07-11T20:18:26.775Z",
+    "__v": 0
+  },
+  {
+    "_id": "687172eb7b0476cad7a69816",
+    "email": "shimonking412@gmail.com",
+    "password": "$2b$10$tayW1LZx0JZP0dCzJui/P.9gdgsjnyKZBhK/d.5nkQcN5Vlig6TzG",
+    "paid": false,
+    "favArray": [],
+    "signupDate": "2025-07-11T20:24:11.181Z",
+    "__v": 0
+  },
+  {
+    "_id": "6871dd26779ac5390b955c9f",
+    "email": "dzirkiev35@gmail.com",
+    "password": "$2b$10$69U8kiRkB8ryZbNeqBnrbOOTqBA/whwZCKYQVUIrEW7WPOS6LBF82",
+    "paid": false,
+    "favArray": [
+      {
+        "Title": "Jab We Met",
+        "Year": "2007",
+        "Rated": "Not Rated",
+        "Released": "26 Oct 2007",
+        "Runtime": "138 min",
+        "Genre": "Comedy, Drama, Romance",
+        "Director": "Imtiaz Ali",
+        "Writer": "Imtiaz Ali",
+        "Actors": "Shahid Kapoor, Kareena Kapoor, Tarun Arora",
+        "Plot": "A depressed wealthy businessman finds his life changing after he meets a spunky and care-free young woman.",
+        "Language": "Hindi",
+        "Country": "India",
+        "Awards": "14 wins & 22 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYmEyMmYyOTgtM2I0My00M2QyLWJhYTYtNmNhOGYzMzQwMjVhXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.9/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "100%"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "7.9",
+        "imdbVotes": "60,625",
+        "imdbID": "tt1093370",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      },
+      {
+        "Title": "Jab Tak Hai Jaan",
+        "Year": "2012",
+        "Rated": "Not Rated",
+        "Released": "13 Nov 2012",
+        "Runtime": "176 min",
+        "Genre": "Drama, Romance",
+        "Director": "Yash Chopra",
+        "Writer": "Aditya Chopra, Devika Bhagat",
+        "Actors": "Shah Rukh Khan, Katrina Kaif, Anushka Sharma",
+        "Plot": "An uncompromising film on true love from the legendary and unforgettable director Yash Chopra which is fascinatingly distinctive and contemporary.",
+        "Language": "Hindi",
+        "Country": "India",
+        "Awards": "26 wins & 39 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTUyMzM5OTM5NF5BMl5BanBnXkFtZTcwNTIwMjA3OA@@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.7/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "90%"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "6.7",
+        "imdbVotes": "60,276",
+        "imdbID": "tt2176013",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$3,047,539",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "signupDate": "2025-07-12T03:57:26.085Z",
+    "__v": 15
+  },
+  {
+    "_id": "687360f5c3b028a58ceed2e8",
+    "email": "dzirkiev95@gmail.com",
+    "password": "$2b$10$wlmdtejLpLuwcQcGxe.oXucNUTuWReIvGQyPgHueRK6J3qoXQHrLC",
+    "paid": false,
+    "favArray": [
       {
         "Title": "Hell or High Water",
         "Year": "2016",
@@ -126,7 +295,7 @@
         "Response": "True"
       }
     ],
-    "signupDate": "2025-07-09T19:54:27.963Z",
-    "__v": 6
+    "signupDate": "2025-07-13T07:32:05.420Z",
+    "__v": 27
   }
 ]

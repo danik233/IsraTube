@@ -18,7 +18,6 @@ function applyDarkMode() {
   const h1 = document.getElementsByTagName("h1")[0];
   if (h1) h1.style.color = isDarkMode ? "white" : "black";
 
-  // Also style the container if needed
   if (favContainer) {
     favContainer.style.backgroundColor = isDarkMode ? "#000000" : "#ffffff";
     favContainer.style.color = isDarkMode ? "white" : "black";
@@ -65,8 +64,35 @@ function renderFavorites() {
   });
 }
 
+// Remove favorite and sync immediately
 function removeFavorite(id) {
   favorites = favorites.filter(m => m.imdbID !== id);
   localStorage.setItem('favorites', JSON.stringify(favorites));
   renderFavorites();
+  syncFavoritesToMongo();
+}
+
+// Sync local favorites to MongoDB for logged-in user
+async function syncFavoritesToMongo() {
+  const email = sessionStorage.getItem("email");
+  if (!email) return;  // No logged-in user
+
+  try {
+    const res = await fetch(`/api/users/${encodeURIComponent(email)}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ newFavArray: favorites })
+    });
+
+    if (res.ok) {
+      console.log("✅ Synced favorites to MongoDB.");
+    } else {
+      const data = await res.json();
+      console.error("❌ Failed to sync favorites:", data.error || data.message);
+    }
+  } catch (err) {
+    console.error("❌ Error syncing favorites:", err);
+  }
 }
