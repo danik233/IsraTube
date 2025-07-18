@@ -3,6 +3,7 @@
 
 <head>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/loading.css">
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
@@ -10,8 +11,17 @@
 </head>
 
 
+
 <body>
     <header>
+
+        <!-- Loading Screen -->
+        <section id="loading-screen">
+            <section class="loader"></section>
+            <p>Loading, please wait...</p>
+        </section>
+
+
 
         <section class="buttonANDlogo">
             <input id="burgerBtn" type="button" value="☰" alt="menu"
@@ -57,7 +67,7 @@
                     <p>TV Online</p>
                 </a>
             </li>
-            <li class="activePage">
+            <li>
                 <a href="Movies.html">
                     <img src="images/MovieIcon.png" alt="homeIcon">
                     <p>Movies</p>
@@ -69,7 +79,7 @@
                     <p>Songs</p>
                 </a>
             </li>
-            <li>
+            <li class="activePage">
                 <a href="About.html" id="AboutUs">
                     <img src="images/AboutUs.jpg" alt="homeIcon">
                     <p>About</p>
@@ -78,62 +88,30 @@
         </ul>
     </aside>
 
+
     <main>
-
         <section class="mainWrap">
-            <p>Action ></p>
-            <section class="movies">
-                <button class="scrollLeft">◀</button>
-                <section class="scrollable">
-
-                    <img src="images/Karate Kid 1.png" alt="Karate Kid">
-                    <img src="images/Jab Tak Hai Jaan 1.png" alt="Jab Tak Hai Jaan">
-                    <img src="images/movie3 1.png" alt="Den of Thieves">
-                    <img src="images/movie4.png" alt="The Life List">
-                    <img src="images/movie5 1.png" alt="Flight Risk">
-                    <img src="images/movie6.png" alt="Mission: Impossible - The Final Reckoning">
-                    <img src="images/movie7.png" alt="Tron: Ares">
-
-                </section>
-                <button class="scrollRight">▶</button>
-            </section>
-            <!--Horror~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-            <p>Horror ></p>
-            <section class="movies">
-                <button class="scrollLeft">◀</button>
-                <section class="scrollable">
-
-                    <img src="images/Horror1.png" alt="Smile">
-                    <img src="images/Horror2.png" alt="Slenderman">
-                    <img src="images/Horrro3.png" alt="It">
-                    <img src="images/Horror4.png" alt="Five Nights at Freddy's">
-                    <img src="images/Horror5.png" alt="Saw X">
-                    <img src="images/Horror6.png" alt="Evil Dead Rise">
-                    <img src="images/Horror7.png" alt="Insidious: The Red Door">
-
-                </section>
-                <button class="scrollRight">▶</button>
+            <section class="about-section">
+                <p>About Us</p>
+                <img src="images/AboutUs2.jpeg" alt="Zirkiev Brothers" class="about-image" />
+                <p id="about-text">
+                    We are Daniel&Alan Zirkiev, brothers and creators of this amazing website.
+                </p>
             </section>
 
-            <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-            <!--Comedy~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-            <p>Comedy ></p>
-            <section class="movies">
-                <button class="scrollLeft">◀</button>
-                <section class="scrollable">
-
-                    <img src="images/Comedy1.png" alt="The Other Guys">
-                    <img src="images/Comedy2.png" alt="Let's Be Cops">
-                    <img src="images/Comedy3.png" alt="The Hangover">
-                    <img src="images/Comdey4.png" alt="Scary Movie 4">
-                    <img src="images/Comedy5.png" alt="21 Jump Street">
-                    <img src="images/Comedy6.png" alt="Role Models">
-                    <img src="images/Comdey7.png" alt="Ted">
-                </section>
-                <button class="scrollRight">▶</button>
+            <section class="about-section">
+                <p>Contact Us</p>
+                <br>
+                <p id="about-text">Email:</p>
+                <br>
+                <p id="about-text">dzirkiev95@gmail.com</p>
             </section>
-            <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+            <section class="about-section">
+                <p>Purpose</p>
+                <br>
+                <p id="about-text">This website is intended solely for educational purposes and is part of a personal learning project. Accessibility features have not been implemented, as the site is not intended for public or commercial use. </p>
+            </section>
 
         </section>
     </main>
@@ -141,8 +119,12 @@
 
 
     <script src="js/home.js"></script>
+    <script src="js/routerIMDB.js"></script>
+    <script src="js/loading.js"></script>
     <script src="js/syncFavorite.js"></script>
-    
+
+
+
 </body>
 
 

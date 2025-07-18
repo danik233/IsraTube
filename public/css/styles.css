@@ -623,6 +623,75 @@ header {
     left: 30px;
 }
 
+/*~~~~~~~~~~~~~~~~~~~About US~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #9292922f;
+    /* semi-transparent gray */
+    backdrop-filter: blur(12px);
+    /* glass effect */
+    -webkit-backdrop-filter: blur(12px);
+    padding: 80px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    margin: 40px auto;
+    max-width: 900px;
+    /* animation removed */
+    opacity: 1;
+    /* set visible immediately */
+    transform: scale(1);
+    /* no scale animation */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-section:hover {
+    transform: scale(1);
+    box-shadow: 0 12px 45px rgba(0, 0, 0, 0.5);
+}
+
+/* Removed animation keyframes (fadeZoomIn) */
+
+.about-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.about-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+.about-title {
+    font-family: 'Krona One', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    letter-spacing: 1px;
+}
+
+#about-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 700px;
+    color: #eaeaea;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.about-section p {
+    font-size: 40px;
+}
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 @media (max-width: 768px) {
     .buttonANDlogo a p {
@@ -768,6 +837,39 @@ header {
 
     #poster-and-p {
         gap: 0px;
+    }
+
+
+    /*About Us*/
+    .about-image {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 30px;
+        border: 4px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    #about-text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        /* 16px, readable */
+        color: #eaeaea;
+        text-align: center;
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+        line-height: 1.6;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .about-section p {
+        font-size: 2rem;
     }
 
 
