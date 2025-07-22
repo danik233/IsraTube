@@ -123,8 +123,8 @@
   },
   {
     "_id": "687f7e5540bb69cfd2d9baa4",
-    "email": "dzirkiev95@gmail.com",
-    "password": "$2b$10$1OWm8wv82xSn64.2LBtaKOCPR4Ig3fLeaBWSDECmEs88Jf9JtQEbe",
+    "email": "zirkiev35@gmail.com",
+    "password": "$2b$10$88Yf/oGZFv8/RAE9dxJm8Oejdry5MD8QpsBGo6i/Kzl2cMFtECd/.",
     "paid": false,
     "favArray": [
       {
@@ -161,6 +161,6 @@
       }
     ],
     "signupDate": "2025-07-22T12:04:37.205Z",
-    "__v": 4
+    "__v": 6
   }
 ]
