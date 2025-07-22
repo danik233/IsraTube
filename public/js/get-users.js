@@ -92,17 +92,45 @@ async function deleteUser(email) {
 }
 
 // Update user WITHOUT changing paid status (no changes)
-async function changeUser(email) {
-    const newEmail = prompt("New email:", email);
-    if (!newEmail) return alert("Email is required");
+let currentEditingEmail = null;
 
-    const newPassword = prompt("New password:");
+function changeUser(email) {
+    currentEditingEmail = email;
 
-    const updatePayload = { newEmail };
-    if (newPassword) updatePayload.newPassword = newPassword;
+    // Pre-fill modal fields
+    document.getElementById("modalEmail").value = email;
+    document.getElementById("modalPassword").value = "";
+
+    // Show modal
+    document.getElementById("editModal").style.display = "block";
+}
+
+// Handle modal close
+document.getElementById("closeModal").onclick = () => {
+    document.getElementById("editModal").style.display = "none";
+    document.getElementById("editStatus").textContent = "";
+};
+
+// Handle form submission
+document.getElementById("editForm").onsubmit = async (e) => {
+    e.preventDefault();
+
+    const newEmail = document.getElementById("modalEmail").value.trim();
+    const newPassword = document.getElementById("modalPassword").value.trim();
+
+    // Enforce password requirement
+    if (!newPassword) {
+        document.getElementById("editStatus").textContent = "❌ Password is required to update email.";
+        return;
+    }
+
+    const updatePayload = {
+        newEmail,
+        newPassword
+    };
 
     try {
-        const res = await fetch(`/api/users/${encodeURIComponent(email)}`, {
+        const res = await fetch(`/api/users/${encodeURIComponent(currentEditingEmail)}`, {
             method: "PUT",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(updatePayload)
@@ -111,14 +139,25 @@ async function changeUser(email) {
         const data = await res.json();
 
         if (!res.ok) {
-            alert("Failed to update: " + (data.error || data.message));
+            document.getElementById("editStatus").textContent = "❌ " + (data.error || data.message);
             return;
         }
 
-        alert(data.message);
-        location.reload();
+        document.getElementById("editStatus").textContent = "✅ " + data.message;
+        setTimeout(() => location.reload(), 1000);
     } catch (err) {
         console.error("❌ Update error:", err);
-        alert("Failed to update user.");
+        document.getElementById("editStatus").textContent = "Failed to update user.";
     }
-}
+};
+
+// Close modal on outside click
+window.onclick = (event) => {
+    const modal = document.getElementById("editModal");
+    if (event.target === modal) {
+        modal.style.display = "none";
+        document.getElementById("editStatus").textContent = "";
+    }
+};
+
+

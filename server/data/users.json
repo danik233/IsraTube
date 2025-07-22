@@ -1,388 +1,166 @@
 [
   {
-    "_id": "686ec8f3495c358a66845921",
-    "email": "1@2",
-    "password": "$2b$10$ieEGsCFQrto/MPg8/2Ae7.EHhanCQZamfkNq1sPKqd8y.BqxKWxHq",
+    "_id": "687d07bee800f3f21256885a",
+    "email": "zirkiev555@gmail.com",
+    "password": "$2b$10$1zRGb/M0GjlpEyyzpvr/8eukuoF.DGZnG.4BoyZL/iYhfmbrUcb4m",
     "paid": true,
     "favArray": [
       {
-        "Title": "7 Days in Hell",
-        "Year": "2015",
-        "Rated": "TV-MA",
-        "Released": "11 Jul 2015",
-        "Runtime": "43 min",
-        "Genre": "Comedy, Sport",
-        "Director": "Jake Szymanski",
-        "Writer": "Murray Miller",
-        "Actors": "Andy Samberg, Kit Harington, Fred Armisen",
-        "Plot": "A mockumentary-style exposé on the rivalry between two of the greatest tennis players of all time who battled it out in a 2001 match that lasted seven days.",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "1 nomination",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BZjcwNDIyMTItODgyNy00YTg1LWIzNzgtNmE0ZjJmYmZjNTFhXkEyXkFqcGc@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "7.1/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "87%"
-          }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "7.1",
-        "imdbVotes": "20,830",
-        "imdbID": "tt3895884",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      },
-      {
-        "Title": "Hell Fest",
-        "Year": "2018",
-        "Rated": "R",
-        "Released": "28 Sep 2018",
-        "Runtime": "89 min",
-        "Genre": "Horror, Mystery, Thriller",
-        "Director": "Gregory Plotkin",
-        "Writer": "Seth M. Sherwood, Blair Butler, Akela Cooper",
-        "Actors": "Cynthea Mercado, Stephen Conroy, Amy Forsyth",
-        "Plot": "A masked serial killer turns a horror-themed amusement park into his own personal playground, terrorizing a group of friends while the rest of the patrons believe that it is all part of the show.",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "1 win total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BOGFkMWM5MmEtZjY4YS00MmFhLWEyOWQtNTcwYmRlYmZkMzU3XkEyXkFqcGc@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "5.5/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "42%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "26/100"
-          }
-        ],
-        "Metascore": "26",
-        "imdbRating": "5.5",
-        "imdbVotes": "20,518",
-        "imdbID": "tt1999890",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "$11,107,431",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      },
-      {
-        "Title": "Over the Top",
-        "Year": "1987",
+        "Title": "Getting Even with Dad",
+        "Year": "1994",
         "Rated": "PG",
-        "Released": "13 Feb 1987",
-        "Runtime": "93 min",
-        "Genre": "Action, Drama, Sport",
-        "Director": "Menahem Golan",
-        "Writer": "Gary Conway, David Engelbach, Stirling Silliphant",
-        "Actors": "Sylvester Stallone, Robert Loggia, Susan Blakely",
-        "Plot": "Tough trucker Lincoln Hawk is determined to win back his son and triumph at the world arm wrestling championships.",
+        "Released": "17 Jun 1994",
+        "Runtime": "109 min",
+        "Genre": "Comedy, Crime, Family",
+        "Director": "Howard Deutch",
+        "Writer": "Tom S. Parker, Jim Jennewein",
+        "Actors": "Macaulay Culkin, Ted Danson, Glenne Headly",
+        "Plot": "A thief's son cons his father into spending more time with him.",
         "Language": "English",
         "Country": "United States",
-        "Awards": "4 wins & 3 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BYzM3YjNmZWItZTU4ZS00MzJkLThjMjYtZGQ2MDEzN2YxZDRkXkEyXkFqcGc@._V1_SX300.jpg",
+        "Awards": "2 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYTA0ZWY4YzctMmQ2Ni00YzZlLThhYWUtMjE5YmFkZTVmMDI1XkEyXkFqcGc@._V1_SX300.jpg",
         "Ratings": [
           {
             "Source": "Internet Movie Database",
-            "Value": "5.8/10"
+            "Value": "4.9/10"
           },
           {
             "Source": "Rotten Tomatoes",
-            "Value": "32%"
+            "Value": "3%"
           },
           {
             "Source": "Metacritic",
-            "Value": "40/100"
+            "Value": "31/100"
           }
         ],
-        "Metascore": "40",
-        "imdbRating": "5.8",
-        "imdbVotes": "62,496",
-        "imdbID": "tt0093692",
+        "Metascore": "31",
+        "imdbRating": "4.9",
+        "imdbVotes": "8,930",
+        "imdbID": "tt0109891",
         "Type": "movie",
         "DVD": "N/A",
-        "BoxOffice": "$16,057,580",
+        "BoxOffice": "$18,869,594",
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
       },
       {
-        "Title": "Brock: Over the Top",
-        "Year": "2020",
+        "Title": "Ace of Aces",
+        "Year": "1982",
         "Rated": "N/A",
-        "Released": "22 Jun 2020",
-        "Runtime": "104 min",
-        "Genre": "Documentary",
-        "Director": "Kriv Stenders",
-        "Writer": "Kriv Stenders",
-        "Actors": "Alexandra Brock, Bev Brock, Julie Bamford",
-        "Plot": "Brock: Over the Top is a feature length documentary that not only chronicles the extraordinary life of Australia's greatest racing car driver, Peter Brock, but peels away the surface to reveal the profoundly human story behind the...",
-        "Language": "English, French",
-        "Country": "Australia",
+        "Released": "27 Oct 1982",
+        "Runtime": "100 min",
+        "Genre": "Adventure, Comedy, Sport",
+        "Director": "Gérard Oury",
+        "Writer": "Gérard Oury, Danièle Thompson, Horst Wendlandt",
+        "Actors": "Jean-Paul Belmondo, Marie-France Pisier, Frank Hoffmann",
+        "Plot": "In 1936, a French boxer on his way to the Berlin Olympic Games befriends a local Jewish boy and decides to save him from the Nazis.",
+        "Language": "French, German",
+        "Country": "France, West Germany",
         "Awards": "1 nomination",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BYTI5NzY2MWQtNTJjNy00ZWM0LWIxZDUtNjk4ZTE5NDVmMGViXkEyXkFqcGc@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "6.5/10"
-          }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "6.5",
-        "imdbVotes": "149",
-        "imdbID": "tt12525356",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      }
-    ],
-    "signupDate": "2025-07-09T19:54:27.963Z",
-    "__v": 14
-  },
-  {
-    "_id": "6870ac5850263b570e50e3c4",
-    "email": "zirkiev555@gmail.com",
-    "password": "$2b$10$Wpf.kHUOu7jLSM7NCroUQO/ZCGhhZ4OrBhfbdobWdDYDnZqj0kiuW",
-    "paid": false,
-    "favArray": [
-      {
-        "Title": "Ace Ventura: Pet Detective Jr.",
-        "Year": "2009",
-        "Rated": "PG",
-        "Released": "03 Mar 2009",
-        "Runtime": "93 min",
-        "Genre": "Adventure, Comedy, Crime",
-        "Director": "David Mickey Evans",
-        "Writer": "David Mickey Evans, Jeff Sank, Jason Heimberg",
-        "Actors": "Josh Flitter, Emma Lockhart, Ann Cusack",
-        "Plot": "The son of an eccentric detective steps into his father's shoes after his mother is wrongly arrested for stealing a baby panda.",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "N/A",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BZTVmYmYwMGUtMDA1MC00OGIwLWIzMjctMWEyMzhhOGZkMjEwXkEyXkFqcGc@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "2.1/10"
-          }
-        ],
-        "Metascore": "N/A",
-        "imdbRating": "2.1",
-        "imdbVotes": "5,880",
-        "imdbID": "tt0844029",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      }
-    ],
-    "signupDate": "2025-07-11T06:16:56.572Z",
-    "__v": 2
-  },
-  {
-    "_id": "6871dd26779ac5390b955c9f",
-    "email": "dzirkiev35@gmail.com",
-    "password": "$2b$10$t.7LKOce6i4m0FkFKG3dqu02k8omht9xpCBHUgs2u3fHNrhqZnt7O",
-    "paid": false,
-    "favArray": [
-      {
-        "Title": "Drag Me to Hell",
-        "Year": "2009",
-        "Rated": "PG-13",
-        "Released": "29 May 2009",
-        "Runtime": "99 min",
-        "Genre": "Horror",
-        "Director": "Sam Raimi",
-        "Writer": "Sam Raimi, Ivan Raimi",
-        "Actors": "Alison Lohman, Justin Long, Ruth Livier",
-        "Plot": "A loan officer who evicts an old woman from her home finds herself the recipient of a supernatural curse. Desperate, she turns to a seer to try and save her soul, while evil forces work to push her to a breaking point.",
-        "Language": "English, Spanish, Hungarian, Czech",
-        "Country": "United States, India",
-        "Awards": "7 wins & 24 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQwNTMyNjc5Ml5BMl5BanBnXkFtZTcwOTI2MTQ0Mg@@._V1_SX300.jpg",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNmQxMzk3OGUtMjkyNS00YzJiLWFmNDMtNjZmNmQ1M2NiNGEzXkEyXkFqcGc@._V1_SX300.jpg",
         "Ratings": [
           {
             "Source": "Internet Movie Database",
             "Value": "6.6/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "92%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "83/100"
           }
         ],
-        "Metascore": "83",
+        "Metascore": "N/A",
         "imdbRating": "6.6",
-        "imdbVotes": "223,630",
-        "imdbID": "tt1127180",
+        "imdbVotes": "4,326",
+        "imdbID": "tt0083580",
         "Type": "movie",
         "DVD": "N/A",
-        "BoxOffice": "$42,100,625",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      }
-    ],
-    "signupDate": "2025-07-12T03:57:26.085Z",
-    "__v": 16
-  },
-  {
-    "_id": "687360f5c3b028a58ceed2e8",
-    "email": "dzirkiev99@gmail.com",
-    "password": "$2b$10$LPSTCZABaikwqe8.7wMWSu452sEcUtIarDQTHyPVrECP9YnMMisE2",
-    "paid": false,
-    "favArray": [
-      {
-        "Title": "Big Hero 6",
-        "Year": "2014",
-        "Rated": "PG",
-        "Released": "07 Nov 2014",
-        "Runtime": "102 min",
-        "Genre": "Animation, Action, Adventure",
-        "Director": "Don Hall, Chris Williams",
-        "Writer": "Jordan Roberts, Robert L. Baird, Daniel Gerson",
-        "Actors": "Ryan Potter, Scott Adsit, Jamie Chung",
-        "Plot": "A special bond develops between plus-sized inflatable robot Baymax and prodigy Hiro Hamada, who together team up with a group of friends to form a band of high-tech heroes.",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "Won 1 Oscar. 17 wins & 58 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BYjQ3YzUyOGQtNjdlYS00YmRhLWIyOWYtMGQ3YjkwMjJiYzRjXkEyXkFqcGc@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "7.8/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "90%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "74/100"
-          }
-        ],
-        "Metascore": "74",
-        "imdbRating": "7.8",
-        "imdbVotes": "531,564",
-        "imdbID": "tt2245084",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "$222,527,828",
+        "BoxOffice": "N/A",
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
       },
       {
-        "Title": "Hero",
-        "Year": "2002",
-        "Rated": "PG-13",
-        "Released": "27 Aug 2004",
-        "Runtime": "107 min",
-        "Genre": "Action, Adventure, Drama",
-        "Director": "Yimou Zhang",
-        "Writer": "Feng Li, Yimou Zhang, Bin Wang",
-        "Actors": "Jet Li, Tony Leung Chiu-wai, Maggie Cheung",
-        "Plot": "A defense officer, Nameless, was summoned by the King of Qin regarding his success of terminating three warriors.",
-        "Language": "Mandarin",
-        "Country": "Hong Kong, China",
-        "Awards": "Nominated for 1 Oscar. 46 wins & 48 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BYTlkZWVjYzQtZmI1My00MGM2LTlmZjEtNjU1M2Y1MTRkNmZjXkEyXkFqcGc@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "7.9/10"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "85/100"
-          }
-        ],
-        "Metascore": "85",
-        "imdbRating": "7.9",
-        "imdbVotes": "190,575",
-        "imdbID": "tt0299977",
-        "Type": "movie",
-        "DVD": "06 Jan 2004",
-        "BoxOffice": "$53,710,019",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      }
-    ],
-    "signupDate": "2025-07-13T07:32:05.420Z",
-    "__v": 46
-  },
-  {
-    "_id": "68775d710a12934b751ba31b",
-    "email": "estermor16@gmail.com",
-    "password": "$2b$10$ilpMEsUJmoZJ6nIOGgyefe56EfwVXpvMuK6M/moo4nIgAZhZWcrrG",
-    "paid": true,
-    "favArray": [
-      {
-        "Title": "Ted",
-        "Year": "2012",
-        "Rated": "R",
-        "Released": "29 Jun 2012",
-        "Runtime": "106 min",
-        "Genre": "Comedy",
-        "Director": "Seth MacFarlane",
-        "Writer": "Seth MacFarlane, Alec Sulkin, Wellesley Wild",
-        "Actors": "Mark Wahlberg, Mila Kunis, Seth MacFarlane",
-        "Plot": "John Bennett, a man whose childhood wish of bringing his teddy bear to life came true, now must decide between keeping the relationship with the bear, Ted or his girlfriend, Lori.",
-        "Language": "English, Japanese, Ukrainian",
+        "Title": "Stroker Ace",
+        "Year": "1983",
+        "Rated": "PG",
+        "Released": "01 Jul 1983",
+        "Runtime": "96 min",
+        "Genre": "Action, Comedy, Romance",
+        "Director": "Hal Needham",
+        "Writer": "William Neely, Robert K. Ottum, Hugh Wilson",
+        "Actors": "Burt Reynolds, Ned Beatty, Jim Nabors",
+        "Plot": "The title character, a popular NASCAR driver, clashes with the fried-chicken mogul that sponsors his racing team.",
+        "Language": "English",
         "Country": "United States",
-        "Awards": "Nominated for 1 Oscar. 13 wins & 28 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ1OTU0ODcxMV5BMl5BanBnXkFtZTcwOTMxNTUwOA@@._V1_SX300.jpg",
+        "Awards": "1 win & 4 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNjE1YjY2ODktYmY3Ni00NTZlLWJkMGItMzcwYjI1N2I0MTYwXkEyXkFqcGc@._V1_SX300.jpg",
         "Ratings": [
           {
             "Source": "Internet Movie Database",
-            "Value": "6.9/10"
+            "Value": "4.9/10"
           },
           {
             "Source": "Rotten Tomatoes",
-            "Value": "69%"
+            "Value": "19%"
           },
           {
             "Source": "Metacritic",
-            "Value": "62/100"
+            "Value": "30/100"
           }
         ],
-        "Metascore": "62",
-        "imdbRating": "6.9",
-        "imdbVotes": "685,507",
-        "imdbID": "tt1637725",
+        "Metascore": "30",
+        "imdbRating": "4.9",
+        "imdbVotes": "4,405",
+        "imdbID": "tt0086379",
         "Type": "movie",
         "DVD": "N/A",
-        "BoxOffice": "$218,815,487",
+        "BoxOffice": "$13,000,000",
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
       }
     ],
-    "signupDate": "2025-07-16T08:06:09.669Z",
+    "signupDate": "2025-07-20T15:14:06.578Z",
+    "__v": 1
+  },
+  {
+    "_id": "687f7e5540bb69cfd2d9baa4",
+    "email": "dzirkiev95@gmail.com",
+    "password": "$2b$10$1OWm8wv82xSn64.2LBtaKOCPR4Ig3fLeaBWSDECmEs88Jf9JtQEbe",
+    "paid": false,
+    "favArray": [
+      {
+        "Title": "Ted - Show Me Love",
+        "Year": "2018",
+        "Rated": "N/A",
+        "Released": "03 Jan 2018",
+        "Runtime": "120 min",
+        "Genre": "Biography, Drama, Music",
+        "Director": "Hannes Holm",
+        "Writer": "Hannes Holm",
+        "Actors": "Hanna Alström, Jonatan Rodriguez, Jonas Karlsson",
+        "Plot": "The life of Swedish pop star Ted Gärdestad.",
+        "Language": "Swedish",
+        "Country": "Sweden",
+        "Awards": "1 win & 1 nomination total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYjM5ZWU0ZWEtZjAxYi00YzliLWJlMDEtOGRjZWNjMWIyNzQyXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.0/10"
+          }
+        ],
+        "Metascore": "N/A",
+        "imdbRating": "7.0",
+        "imdbVotes": "4,258",
+        "imdbID": "tt6204018",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "N/A",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "signupDate": "2025-07-22T12:04:37.205Z",
     "__v": 4
   }
 ]

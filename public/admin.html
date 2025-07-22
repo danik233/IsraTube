@@ -33,6 +33,25 @@
         </tr>
     </table>
 
+    <!-- Edit User Modal -->
+    <section id="editModal" class="modal">
+        <section class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2>Edit User</h2>
+            <form id="editForm">
+                <label for="modalEmail">New Email:</label>
+                <input type="email" id="modalEmail" required><br>
+
+                <label for="modalPassword">New Password:</label>
+                <input type="password" id="modalPassword"><br>
+
+                <button type="submit">Update</button>
+            </form>
+            <p id="editStatus" class="status-message"></p>
+        </section>
+    </section>
+
+
     <script src="js/get-users.js"></script>
     <script src="js/loading.js"></script>
 
