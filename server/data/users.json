@@ -6,161 +6,215 @@
     "paid": true,
     "favArray": [
       {
-        "Title": "Getting Even with Dad",
-        "Year": "1994",
+        "Title": "Ace Ventura: Pet Detective Jr.",
+        "Year": "2009",
         "Rated": "PG",
-        "Released": "17 Jun 1994",
-        "Runtime": "109 min",
-        "Genre": "Comedy, Crime, Family",
-        "Director": "Howard Deutch",
-        "Writer": "Tom S. Parker, Jim Jennewein",
-        "Actors": "Macaulay Culkin, Ted Danson, Glenne Headly",
-        "Plot": "A thief's son cons his father into spending more time with him.",
+        "Released": "03 Mar 2009",
+        "Runtime": "93 min",
+        "Genre": "Adventure, Comedy, Crime",
+        "Director": "David Mickey Evans",
+        "Writer": "David Mickey Evans, Jeff Sank, Jason Heimberg",
+        "Actors": "Josh Flitter, Emma Lockhart, Ann Cusack",
+        "Plot": "The son of an eccentric detective steps into his father's shoes after his mother is wrongly arrested for stealing a baby panda.",
         "Language": "English",
         "Country": "United States",
-        "Awards": "2 nominations total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BYTA0ZWY4YzctMmQ2Ni00YzZlLThhYWUtMjE5YmFkZTVmMDI1XkEyXkFqcGc@._V1_SX300.jpg",
+        "Awards": "N/A",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZTVmYmYwMGUtMDA1MC00OGIwLWIzMjctMWEyMzhhOGZkMjEwXkEyXkFqcGc@._V1_SX300.jpg",
         "Ratings": [
           {
             "Source": "Internet Movie Database",
-            "Value": "4.9/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "3%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "31/100"
-          }
-        ],
-        "Metascore": "31",
-        "imdbRating": "4.9",
-        "imdbVotes": "8,930",
-        "imdbID": "tt0109891",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "$18,869,594",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      },
-      {
-        "Title": "Ace of Aces",
-        "Year": "1982",
-        "Rated": "N/A",
-        "Released": "27 Oct 1982",
-        "Runtime": "100 min",
-        "Genre": "Adventure, Comedy, Sport",
-        "Director": "Gérard Oury",
-        "Writer": "Gérard Oury, Danièle Thompson, Horst Wendlandt",
-        "Actors": "Jean-Paul Belmondo, Marie-France Pisier, Frank Hoffmann",
-        "Plot": "In 1936, a French boxer on his way to the Berlin Olympic Games befriends a local Jewish boy and decides to save him from the Nazis.",
-        "Language": "French, German",
-        "Country": "France, West Germany",
-        "Awards": "1 nomination",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BNmQxMzk3OGUtMjkyNS00YzJiLWFmNDMtNjZmNmQ1M2NiNGEzXkEyXkFqcGc@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "6.6/10"
+            "Value": "2.1/10"
           }
         ],
         "Metascore": "N/A",
-        "imdbRating": "6.6",
-        "imdbVotes": "4,326",
-        "imdbID": "tt0083580",
+        "imdbRating": "2.1",
+        "imdbVotes": "5,880",
+        "imdbID": "tt0844029",
         "Type": "movie",
         "DVD": "N/A",
         "BoxOffice": "N/A",
-        "Production": "N/A",
-        "Website": "N/A",
-        "Response": "True"
-      },
-      {
-        "Title": "Stroker Ace",
-        "Year": "1983",
-        "Rated": "PG",
-        "Released": "01 Jul 1983",
-        "Runtime": "96 min",
-        "Genre": "Action, Comedy, Romance",
-        "Director": "Hal Needham",
-        "Writer": "William Neely, Robert K. Ottum, Hugh Wilson",
-        "Actors": "Burt Reynolds, Ned Beatty, Jim Nabors",
-        "Plot": "The title character, a popular NASCAR driver, clashes with the fried-chicken mogul that sponsors his racing team.",
-        "Language": "English",
-        "Country": "United States",
-        "Awards": "1 win & 4 nominations",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BNjE1YjY2ODktYmY3Ni00NTZlLWJkMGItMzcwYjI1N2I0MTYwXkEyXkFqcGc@._V1_SX300.jpg",
-        "Ratings": [
-          {
-            "Source": "Internet Movie Database",
-            "Value": "4.9/10"
-          },
-          {
-            "Source": "Rotten Tomatoes",
-            "Value": "19%"
-          },
-          {
-            "Source": "Metacritic",
-            "Value": "30/100"
-          }
-        ],
-        "Metascore": "30",
-        "imdbRating": "4.9",
-        "imdbVotes": "4,405",
-        "imdbID": "tt0086379",
-        "Type": "movie",
-        "DVD": "N/A",
-        "BoxOffice": "$13,000,000",
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
       }
     ],
     "signupDate": "2025-07-20T15:14:06.578Z",
-    "__v": 1
+    "__v": 2
   },
   {
     "_id": "687f7e5540bb69cfd2d9baa4",
-    "email": "zirkiev35@gmail.com",
-    "password": "$2b$10$88Yf/oGZFv8/RAE9dxJm8Oejdry5MD8QpsBGo6i/Kzl2cMFtECd/.",
+    "email": "alan@mail.com",
+    "password": "$2b$10$U6dx8qqZIxZIfuDWF8zcfO9qwjXBZvOwPTUe8wLOTE7uLScsz8pja",
     "paid": false,
     "favArray": [
       {
-        "Title": "Ted - Show Me Love",
-        "Year": "2018",
-        "Rated": "N/A",
-        "Released": "03 Jan 2018",
-        "Runtime": "120 min",
-        "Genre": "Biography, Drama, Music",
-        "Director": "Hannes Holm",
-        "Writer": "Hannes Holm",
-        "Actors": "Hanna Alström, Jonatan Rodriguez, Jonas Karlsson",
-        "Plot": "The life of Swedish pop star Ted Gärdestad.",
-        "Language": "Swedish",
-        "Country": "Sweden",
-        "Awards": "1 win & 1 nomination total",
-        "Poster": "https://m.media-amazon.com/images/M/MV5BYjM5ZWU0ZWEtZjAxYi00YzliLWJlMDEtOGRjZWNjMWIyNzQyXkEyXkFqcGc@._V1_SX300.jpg",
+        "Title": "Hello Mary Lou: Prom Night II",
+        "Year": "1987",
+        "Rated": "R",
+        "Released": "16 Oct 1987",
+        "Runtime": "97 min",
+        "Genre": "Horror, Thriller",
+        "Director": "Bruce Pittman",
+        "Writer": "Ron Oliver",
+        "Actors": "Lisa Schrage, Michael Ironside, Wendy Lyon",
+        "Plot": "Thirty years after her accidental death at her 1957 senior prom, the tortured spirit of prom queen Mary Lou Maloney returns to seek revenge.",
+        "Language": "English",
+        "Country": "Canada",
+        "Awards": "4 nominations",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMWQxZjMwODMtYzRlOS00YjAyLWI2ZjYtZmZiNzE5NTEwOWFlXkEyXkFqcGc@._V1_SX300.jpg",
         "Ratings": [
           {
             "Source": "Internet Movie Database",
-            "Value": "7.0/10"
+            "Value": "5.8/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "56%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "48/100"
           }
         ],
-        "Metascore": "N/A",
-        "imdbRating": "7.0",
-        "imdbVotes": "4,258",
-        "imdbID": "tt6204018",
+        "Metascore": "48",
+        "imdbRating": "5.8",
+        "imdbVotes": "8,031",
+        "imdbID": "tt0093176",
         "Type": "movie",
         "DVD": "N/A",
-        "BoxOffice": "N/A",
+        "BoxOffice": "$2,683,519",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      },
+      {
+        "Title": "I, Robot",
+        "Year": "2004",
+        "Rated": "PG-13",
+        "Released": "16 Jul 2004",
+        "Runtime": "115 min",
+        "Genre": "Action, Mystery, Sci-Fi",
+        "Director": "Alex Proyas",
+        "Writer": "Jeff Vintar, Akiva Goldsman, Isaac Asimov",
+        "Actors": "Will Smith, Bridget Moynahan, Bruce Greenwood",
+        "Plot": "In 2035, a technophobic cop investigates a crime that may have been perpetrated by a robot, which leads to a larger threat to humanity.",
+        "Language": "English",
+        "Country": "United States, Germany",
+        "Awards": "Nominated for 1 Oscar. 1 win & 15 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZDdhNTY3YTgtYmQwMC00MjM1LTgzYzMtMGM1N2E0NWM1NDlkXkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.1/10"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "59/100"
+          }
+        ],
+        "Metascore": "59",
+        "imdbRating": "7.1",
+        "imdbVotes": "598,159",
+        "imdbID": "tt0343818",
+        "Type": "movie",
+        "DVD": "08 Jun 2004",
+        "BoxOffice": "$144,801,023",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      },
+      {
+        "Title": "Jurassic World",
+        "Year": "2015",
+        "Rated": "PG-13",
+        "Released": "12 Jun 2015",
+        "Runtime": "124 min",
+        "Genre": "Action, Adventure, Sci-Fi",
+        "Director": "Colin Trevorrow",
+        "Writer": "Rick Jaffa, Amanda Silver, Colin Trevorrow",
+        "Actors": "Chris Pratt, Bryce Dallas Howard, Ty Simpkins",
+        "Plot": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
+        "Language": "English",
+        "Country": "Japan, United States",
+        "Awards": "15 wins & 58 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzBhNzlkM2UtZTQyOC00NjUyLTkzMmMtNDQ1YTM5N2NmMGE5XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.9/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "72%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "59/100"
+          }
+        ],
+        "Metascore": "59",
+        "imdbRating": "6.9",
+        "imdbVotes": "703,959",
+        "imdbID": "tt0369610",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$653,406,625",
         "Production": "N/A",
         "Website": "N/A",
         "Response": "True"
       }
     ],
     "signupDate": "2025-07-22T12:04:37.205Z",
-    "__v": 6
+    "__v": 11
+  },
+  {
+    "_id": "68808c0f4f1628209eb0f0c5",
+    "email": "dzirkiev95@gmail.com",
+    "password": "$2b$10$7/xT0LcQ1NMumiZ48WRRBuB95.e.RPTiFcyXukR/uZsitxY8T5OJ2",
+    "paid": false,
+    "favArray": [
+      {
+        "Title": "Jurassic World",
+        "Year": "2015",
+        "Rated": "PG-13",
+        "Released": "12 Jun 2015",
+        "Runtime": "124 min",
+        "Genre": "Action, Adventure, Sci-Fi",
+        "Director": "Colin Trevorrow",
+        "Writer": "Rick Jaffa, Amanda Silver, Colin Trevorrow",
+        "Actors": "Chris Pratt, Bryce Dallas Howard, Ty Simpkins",
+        "Plot": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment and goes on a killing spree.",
+        "Language": "English",
+        "Country": "Japan, United States",
+        "Awards": "15 wins & 58 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzBhNzlkM2UtZTQyOC00NjUyLTkzMmMtNDQ1YTM5N2NmMGE5XkEyXkFqcGc@._V1_SX300.jpg",
+        "Ratings": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "6.9/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "72%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "59/100"
+          }
+        ],
+        "Metascore": "59",
+        "imdbRating": "6.9",
+        "imdbVotes": "703,959",
+        "imdbID": "tt0369610",
+        "Type": "movie",
+        "DVD": "N/A",
+        "BoxOffice": "$653,406,625",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
+      }
+    ],
+    "signupDate": "2025-07-23T07:15:27.571Z",
+    "__v": 18
   }
 ]
